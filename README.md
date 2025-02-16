@@ -25,7 +25,7 @@ This stems from the advertising team's desire to return the benefits of signage 
 ### AI assistant to suggest whether each case needs to be approved or not.
 
 ### AI which counts how many people have passed by the blanch in stead of people.
-
+- [Using mediapipe object detector with deepsort counting(.avi)](/assets/img/deepsort_count.avi)
 
 
 
