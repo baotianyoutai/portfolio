@@ -24,8 +24,8 @@ This stems from the advertising team's desire to return the benefits of signage 
 
 ### AI assistant to suggest whether each case needs to be approved or not.
 
-### AI which counts how many people have passed by the blanch in stead of people.
-- developed multi object tracking(MOT) to provide advertisers with market value (traffic) in front of the branch. This approach provides a more stable count by counting only against the same person detected for more than 3 frames.Implement this AI in two branches that are signage advertising.(_March 2025 - )
+### Advertising effectiveness measurement AI (counting people in front of the blanch)
+- developed multi object tracking(MOT) to provide advertisers with market value (traffic). This approach provides a more stable count by counting only against the same person detected for more than 3 frames.Implement this AI in two branches that are signage advertising.(_March 2025 - )
 - [Using mediapipe object detector with deepsort counting(.avi)](/assets/img/deepsort_counting.avi)
 ![deepsort_counting](/assets/img/deepsort_counting.png)
 
