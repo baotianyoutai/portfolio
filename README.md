@@ -8,12 +8,25 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 
 ## Work Experience
 **AI/ML engineer @ Digital Strategy Division at Chibabank.Ltd (_June 2024 - Present_)**
-- experienced The ASL ML Immersive Education in Google, got knowledge to build end-to-end ML solutions for 3 weeks, created 3 prototypes for 1 weeks.(_October 2024_)
+- experienced The ASL ML Immersive Education in Google, got knowledge to build end-to-end ML solutions for 3 weeks, created 3 prototypes for 1 weeks.(_October 2024_)<br>
+Chiba Bank partners with Google Cloud Consulting’s Advanced Solutions Lab to upskill Chiba Bank’s workforce in AI and ML.(this article is 1st grade student's one)](https://cloud.google.com/customers/chiba-bank?hl=ja)
 - developing Advertising effectiveness measurement AI which counts how many people have passed by the blanch in stead of people.
 - As part of efforts to improve operational efficiency in the Market Operations Department, developed an AI assistant that suggests the relevant balance of payments item number along with the rationale.
 
 ## Projects
-### **RAG system**(for assisting)
+### improving 3 prototypes from ASL programs...(_October 2024 - .._)
+- Advertising effectiveness measurement AI which predicts whether the person watch or not.<br>
+This stems from the advertising team's desire to return the benefits of signage advertising to advertisers.
+- Text2SQL
+- Sign Language AI
+### AI assistant to suggest  the most relevant balance of payments item numbers for Market Operations Division.
+
+### AI assistant to suggest whether each case needs to be approved or not.
+
+### AI which counts how many people have passed by the blanch in stead of people.
+
+
+
 
 ## Competitions Awards
 **SIGNATE(Master 85th in 200,000th(🥇1🥈1🥉4)**
@@ -31,7 +44,7 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 Predict financial market responders using real-world data.<br>
 
 ## Talks & Lectures
-- [Introduce Data Science & Econometrics Laboratory in Hosei](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
+- [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
 ![intro labs](/assets/img/intro_labs.png)<br>
   
 ## Publications
