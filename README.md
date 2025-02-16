@@ -7,8 +7,9 @@ Python, AWS, GCP, AZURE
 B.S., Statistics | Hosei Univ.(_May 2024_)
 
 ## Work Experience
-**AI/ML engineer @ Chibabank.LTD (_June 2024 - Present_)**
-- developing Advertising effectiveness measurement AI which counts how many people have passed by the blanch in stead of OOO.
+**AI/ML engineer @ Digital Strategy Division at Chibabank.Ltd (_June 2024 - Present_)**
+- experienced The ASL ML Immersive Education in Google, got knowledge to build end-to-end ML solutions for 3 weeks, created 3 prototypes for 1 weeks.
+- developing Advertising effectiveness measurement AI which counts how many people have passed by the blanch in stead of people.
 - As part of efforts to improve operational efficiency in the Market Operations Department, developed an AI assistant that suggests the relevant balance of payments item number along with the rationale.
 
 AI/ML engineer @ Chibabank.LTD
