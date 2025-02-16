@@ -26,7 +26,7 @@ This stems from the advertising team's desire to return the benefits of signage 
 
 ### AI which counts how many people have passed by the blanch in stead of people.
 - [Using mediapipe object detector with deepsort counting(.avi)](/assets/img/deepsort_counting.avi)
-![deepsort_counting](/assets/img/deepsort_counting.png)
+![deepsort_counting](dd)
 
 
 ## Competitions Awards
