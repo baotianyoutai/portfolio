@@ -19,6 +19,7 @@ Chiba Bank partners with Google Cloud Consulting’s Advanced Solutions Lab to u
 This stems from the advertising team's desire to return the benefits of signage advertising to advertisers.
 - Text2SQL
 - Sign Language AI
+  
 ### AI assistant to suggest  the most relevant balance of payments item numbers for Market Operations Division.
 
 ### AI assistant to suggest whether each case needs to be approved or not.
