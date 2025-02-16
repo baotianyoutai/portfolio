@@ -12,10 +12,6 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 - developing Advertising effectiveness measurement AI which counts how many people have passed by the blanch in stead of people.
 - As part of efforts to improve operational efficiency in the Market Operations Department, developed an AI assistant that suggests the relevant balance of payments item number along with the rationale.
 
-AI/ML engineer @ Chibabank.LTD
-- big impacts project 1!
-- big impacts project 2!
-
 ## Projects
 **RAG**
 
