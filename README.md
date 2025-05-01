@@ -26,16 +26,16 @@ This stems from the advertising team's desire to return the benefits of signage 
 - [Using mediapipe object detector with deepsort counting(.avi)](/assets/img/deepsort_counting.avi)
 ![deepsort_counting](/assets/img/deepsort_counting.png)
 
-## Certification
-**AWS**
-- AWS Certified Cloud Practitioner(_June 2024)
-- AWS Certified Solutions Architect – Associate(_July 2024)
-- ** AWS Certified AI Practitioner(_February 2025)**
-**Google Cloud**
--** Associate Cloud Engineer(_July 2024)**
--** Advanced Solutions Lab | ML Immersive Education(_October 2024)**
--** Professional Machine Learning Engineer(_November 2024)**
--** Professional Cloud Architect(_May 2025)**
+## Certification([Credly](https://www.credly.com/users/yuta-tokita))
+### AWS
+- AWS Certified Cloud Practitioner(_June 2024)<br>
+- AWS Certified Solutions Architect – Associate(_July 2024)<br>
+- AWS Certified AI Practitioner(_February 2025)<br>
+### Google Cloud**
+- Associate Cloud Engineer(_July 2024)<br>
+- Advanced Solutions Lab | ML Immersive Education(_October 2024)<br>
+- Professional Machine Learning Engineer(_November 2024)<br>
+- Professional Cloud Architect(_May 2025)<br>
 
 
 ## Competitions Awards
