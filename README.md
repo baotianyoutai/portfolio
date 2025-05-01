@@ -1,14 +1,14 @@
-# AI/ML engineer
+# AI/ML engineer (Generative AI enginner)
 
-#### Technical skills : Python, AWS, GCP, AZURE
+#### Technical skills : GCP, AWS, ML, Computer Vision, NLP, GenAI, AI-agent(google-adk, langchain, langsmith, langgraph)
 
-## Education 
+## Education (birth : 2001)
 B.S., Statistics | Hosei Univ.(_May 2024_)
 
 ## Work Experience
 **AI/ML engineer @ Digital Strategy Division at Chibabank.Ltd (_June 2024 - Present_)**
-- experienced The ASL ML Immersive Education in Google, got knowledge to build end-to-end ML solutions for 3 weeks, created 3 prototypes for 1 weeks.(_October 2024_)<br>
-Chiba Bank partners with Google Cloud Consulting’s Advanced Solutions Lab to upskill Chiba Bank’s workforce in AI and ML.(this article is 1st grade student's one)](https://cloud.google.com/customers/chiba-bank?hl=ja)
+- experienced The ASL ML Immersive Education in Google, learned how to build end-to-end ML solutions using tensorflow  for 3 weeks, created 3 prototypes for 1 weeks.(_October 2024_)<br>
+[Chiba Bank partners with Google Cloud Consulting’s Advanced Solutions Lab to upskill Chiba Bank’s workforce in AI and ML.(This article is 1st grade student's one)](https://cloud.google.com/customers/chiba-bank?hl=ja)
 - developing Advertising effectiveness measurement AI which counts how many people have passed by the blanch in stead of people.
 - As part of efforts to improve operational efficiency in the Market Operations Department, developed an AI assistant that suggests the relevant balance of payments item number along with the rationale.
 
