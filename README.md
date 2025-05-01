@@ -28,15 +28,15 @@ This stems from the advertising team's desire to return the benefits of signage 
 
 ## Certification([Credly](https://www.credly.com/users/yuta-tokita))
 **AWS**<br>
-- AWS Certified Cloud Practitioner(_June 2024)<br>
-- AWS Certified Solutions Architect – Associate(_July 2024)<br>
-- AWS Certified AI Practitioner(_February 2025)<br>
+- AWS Certified Cloud Practitioner(_June 2024_)<br>
+- AWS Certified Solutions Architect – Associate(_July 2024_)<br>
+- AWS Certified AI Practitioner(_February 2025_)<br>
 
 **Google Cloud**<br>
-- Associate Cloud Engineer(_July 2024)<br>
-- Advanced Solutions Lab ML Immersive Education(_October 2024)<br>
-- Professional Machine Learning Engineer(_November 2024)<br>
-- Professional Cloud Architect(_May 2025)<br>
+- Associate Cloud Engineer(_July 2024_)<br>
+- Advanced Solutions Lab ML Immersive Education(_October 2024_)<br>
+- Professional Machine Learning Engineer(_November 2024_)<br>
+- Professional Cloud Architect(_May 2025_)<br>
 
 
 ## Competitions Awards
