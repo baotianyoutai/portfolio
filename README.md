@@ -6,9 +6,9 @@
 B.S., Statistics | Hosei Univ.(_May 2024_)
 
 ## Work Experience
-**AI/ML engineer @ Digital Strategy Division at Chibabank.Ltd (_May 2024 - Present_)**
-- experienced [The ASL ML Immersive Education in Google]((https://cloud.google.com/customers/chiba-bank?hl=ja)), learned how to build **end-to-end ML solutions using tensorflow**  for 3 weeks, created 3 prototypes for 1 weeks.(_October 2024_)<br>
-- **developing 5 ai-agent applications in GCP, 1 edge computing application**.
+**AI/ML engineer @ Chibabank.Ltd (_May 2024 - Present_)**
+- experienced [The ASL ML Immersive Education in Google]((https://cloud.google.com/customers/chiba-bank?hl=ja)), learned how to build end-to-end ML solutions using **tensorflow**  for 3 weeks, created 3 prototypes for 1 weeks.(_October 2024_)<br>
+- developing 5 **ai-agent** applications in GCP, 1 **edge computing** application.
 
 ## Projects
 ### improving 3 prototypes from ASL programs...(_October 2024 - .._)
