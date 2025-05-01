@@ -1,4 +1,5 @@
-# AI/ML engineer (Generative AI enginner)
+# AI/ML engineer
+# Generative AI enginner
 
 #### Technical skills : GCP, AWS, ML, Computer Vision, NLP, GenAI, AI-agent(google-adk, langchain, langsmith, langgraph)
 
