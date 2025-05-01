@@ -1,7 +1,6 @@
 # AI/ML engineer
 
-#### Technical skills
-Python, AWS, GCP, AZURE
+#### Technical skills : Python, AWS, GCP, AZURE
 
 ## Education 
 B.S., Statistics | Hosei Univ.(_May 2024_)
@@ -32,6 +31,7 @@ This stems from the advertising team's desire to return the benefits of signage 
 
 ## Competitions Awards
 **SIGNATE(Master 85th in 200,000th(🥇1🥈1🥉4)**
+[My profile in Signate](https://signate.jp/users/84569)
 - 7th in 325th(Solo🥇)<br>
 [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ （一般部門・学生部門）食品パッケージを食料・飲料に分類しよう!](https://signate.jp/competitions/1106)
 ![comp1](/assets/img/tokita_compe.png)
@@ -40,7 +40,8 @@ This stems from the advertising team's desire to return the benefits of signage 
 
 
 **Kaggle(🥉1)**
-- 227th in 3757th(Forecasting Competition end in _July 2025_)
+[My profile in Kaggle](https://www.kaggle.com/tok1t4)
+- 219th in 3757th(Forecasting Competition end in _July 2025_)
 [Jane Street Real-Time Market Data Forecasting](https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting)<br>
 ![comp1](/assets/img/header.png)<br>
 Predict financial market responders using real-world data.<br>
