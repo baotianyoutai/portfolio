@@ -34,7 +34,7 @@ This stems from the advertising team's desire to return the benefits of signage 
 
 ### Google Cloud
 - Associate Cloud Engineer(_July 2024)<br>
-- Advanced Solutions Lab | ML Immersive Education(_October 2024)<br>
+- Advanced Solutions Lab ML Immersive Education(_October 2024)<br>
 - Professional Machine Learning Engineer(_November 2024)<br>
 - Professional Cloud Architect(_May 2025)<br>
 
