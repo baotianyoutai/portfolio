@@ -11,20 +11,10 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 - developing 5 **ai-agent** applications in GCP, 1 **edge computing** application.
 
 ## Projects
-### improving 3 prototypes from ASL programs...(_October 2024 - .._)
-- Advertising effectiveness measurement AI which predicts whether the person watch or not.<br>
-This stems from the advertising team's desire to return the benefits of signage advertising to advertisers.
-- Text2SQL
-- Sign Language AI
-  
-### AI assistant to suggest  the most relevant balance of payments item numbers for Market Operations Division.
 
-### AI assistant to suggest whether each case needs to be approved or not.
+### Write down in detail till _June 2025_
 
-### Advertising effectiveness measurement AI (counting people in front of the blanch)
-- developed multi object tracking(MOT) to provide advertisers with market value (traffic). This approach provides a more stable count by counting only against the same person detected for more than 3 frames.Implement this AI in two branches that are signage advertising.(_March 2025 - )
-- [Using mediapipe object detector with deepsort counting(.avi)](/assets/img/deepsort_counting.avi)
-![deepsort_counting](/assets/img/deepsort_counting.png)
+
 
 ## Certification([Credly](https://www.credly.com/users/yuta-tokita))
 **AWS**<br>
