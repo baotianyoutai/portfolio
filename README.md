@@ -12,9 +12,20 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 
 ## Projects
 
-### Write down in detail till _June 2025_
+## Write down 6 AI applications in detail till _June 2025_
 
+### 1.AI for searching International Balance of Payments Item Numbers(_November 2024 - March 2025_)
+- developed an end-to-end AI application.
+  For improving UX(for anyone who has no enpertise), checking the PDF pages that RAG retrieving in streamlit app.
+- [Technical Skills]Google Cloud, Cloud Run, Streamlit, RAG, langchain
 
+### 2.AI for answering questions regarding loan approval authority
+
+### 3.
+### 4.
+
+### 5.
+### 6.
 
 ## Certification([Credly](https://www.credly.com/users/yuta-tokita))
 **AWS**<br>
