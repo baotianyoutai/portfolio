@@ -4,7 +4,7 @@
 
 #### Technical skills 
 **Cloud**
-- GCP(Main), AWS, Azure(used for Intelligence doccument for pdf processing)
+- GCP, AWS, Azure(used for Intelligence doccument for pdf processing)
 
 **Python Framework**
 - Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe
@@ -26,8 +26,18 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 ## Projects
 
 ### 1.AI for searching International Balance of Payments Item Numbers(_November 2024 - March 2025_)
-- 
-  For improving UX(for anyone who has no expertise), checking the PDF pages that RAG retrieving in streamlit app.
+- [Background]
+The Market Operations Department handles foreign remittances, a process that requires the use of international balance of payments item numbers. To streamline this process, employees currently need to consult a Japanese central bank manual (in PDF format), which is approximately 80 pages long. To reduce the time spent referencing this manual daily, we initiated an AI development project using the Retrieval-Augmented Generation (RAG) approach.
+- [AI Process]
+We developed a RAG system (indexing, retrieving, and generation) using the following steps:
+
+1.began by chunking the PDF document.
+2.created a searchable document from the chunks.
+3.implemented the RAG system using Langchain and Chroma DB.
+4.deployed the system on Cloud Run with a Streamlit interface.
+5.To enhance usability, especially for users, we integrated the following feature:
+
+The Streamlit interface displays the specific sections of the original PDF document from which retrieved information originates, using metadata from the document chunks. This helps users easily verify the source of the information.
 - [Technical Skills] Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB, 
 
 ### 2.AI for answering questions regarding loan approval authority(_November 2024 - March 2025_)
@@ -62,7 +72,7 @@ Cloud Run, GCS, Artifact Registry , Streamlit, RAG, langchain, langgraph, Chroma
 - developing genAI System for Analyzing and Reporting on Financial Product Recommendations, Purchases, and Risk Understanding Based on Interview Transcripts
 
 ### 6.Object Tracking solution for providing Signage Advertisers with Viewership Metrics and Audience Demographics(_November 2024 - Now_)
-**[Background]**
+- [Background]
 We're exploring ways to provide valuable information to advertisers in anticipation of expanding large-scale digital signage at our branches in 2026. I am solely responsible for the AI development, taking a research-oriented approach.
 
 The AI project is divided into 3 phases:
@@ -73,8 +83,7 @@ The AI project is divided into 3 phases:
 
 The initial development of 1st phases was completed on Google Cloud Platform (GCP), using the Mediapipe object detection model and the DeepSort tracking algorithm. However, we are now exploring edge devices due to privacy concerns (PII).
 
-**[AI Process]**
-
+- [AI Process]
 Currently, we are planning to use Mediapipe combined with DeepSort. We are also evaluating PINTO-model alongside DeepSort as a potential alternative.
 
 We are in the process of selecting an edge device now. The leading contenders are:
