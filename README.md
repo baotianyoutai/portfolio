@@ -3,8 +3,10 @@
 #### Technical skills 
 **Cloud**
 - GCP(Main), AWS, Azure(used for Intelligence doccument for pdf processing)
+
 **Python Framework**
 - Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe
+  
 **Python skills**
 - ML(lightgbm, catboost, xgboost, tabnet), CV(kf, skf, group-kf), ensemble/voting
 - NLP(BERT, DEBERTA, ROBERTa,), DL(CNN, RNN, GLU, transformer)
