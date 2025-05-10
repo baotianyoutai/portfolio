@@ -56,11 +56,34 @@ Initially, a vector database is created using all suggestion data accumulated to
 Cloud Run, GCS, Artifact Registry , Streamlit, RAG, langchain, langgraph, ChromaDB
 
 ### 4.AI for searching relevant information for preparing loan approval documents(_Now -_)
-- developing same way for above.
+- developing same architecture for above.
   
 ### 5.AI reporting for Monitoring Financial Product Sales(_Now -_)
+- developing genAI System for Analyzing and Reporting on Financial Product Recommendations, Purchases, and Risk Understanding Based on Interview Transcripts
 
-### 6.Ad-Tech(Object Tracking for )
+### 6.Object Tracking solution for providing Signage Advertisers with Viewership Metrics and Audience Demographics(_November 2024 - Now_)
+**[Background]**
+We're exploring ways to provide valuable information to advertisers in anticipation of expanding large-scale digital signage at our branches in 2026. I am solely responsible for the AI development, taking a research-oriented approach.
+
+The AI project is divided into 3 phases:
+
+1.  **People Counting:** Counting the number of people.
+2.  **Demographic Analysis:** Gathering information about the characteristics of the people (e.g., age, gender).
+3.  **Engagement Tracking:** Determining whether people are looking at the digital signage or not.
+
+The initial development of 1st phases was completed on Google Cloud Platform (GCP), using the Mediapipe object detection model and the DeepSort tracking algorithm. However, we are now exploring edge devices due to privacy concerns (PII).
+
+**[AI Process]**
+
+Currently, we are planning to use Mediapipe combined with DeepSort. We are also evaluating PINTO-model alongside DeepSort as a potential alternative.
+
+We are in the process of selecting an edge device now. The leading contenders are:
+
+*   Google Coral
+*   NVIDIA Jetson Orin Nano 8GB
+
+- [Technical Skills]
+Edge computing, mediapipe, pinto-model, deepsort
 
 ## Certification([Credly](https://www.credly.com/users/yuta-tokita))
 **AWS**<br>
