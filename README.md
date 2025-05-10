@@ -31,11 +31,11 @@ The Market Operations Department handles foreign remittances, a process that req
 - [AI Process]
 We developed a RAG system (indexing, retrieving, and generation) using the following steps:
 
-1.began by chunking the PDF document.
-2.created a searchable document from the chunks.
-3.implemented the RAG system using Langchain and Chroma DB.
-4.deployed the system on Cloud Run with a Streamlit interface.
-5.To enhance usability, especially for users, we integrated the following feature:
+1.began by chunking the PDF document.<br>
+2.created a searchable document from the chunks.<br>
+3.implemented the RAG system using Langchain and Chroma DB.<br>
+4.deployed the system on Cloud Run with a Streamlit interface.<br>
+5.To enhance usability, especially for users, we integrated the following feature:<br>
 
 The Streamlit interface displays the specific sections of the original PDF document from which retrieved information originates, using metadata from the document chunks. This helps users easily verify the source of the information.
 - [Technical Skills] Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB, 
@@ -43,9 +43,9 @@ The Streamlit interface displays the specific sections of the original PDF docum
 ### 2.AI for answering questions regarding loan approval authority(_November 2024 - March 2025_)
 - responsible for the end-to-end development of an AI application designed for eight users. 
 - [Background]
-This system is utilized within our internal chat application, enabling head office staff to respond to inquiries from branch offices. The distinctive feature is our use of a vector database built from past question-and-answer (Q&A) pairs, rather than from the original manual data. This approach was adopted for two primary reasons:
-1.The inquiries often originate from users who couldn't find or understand the answers even after reading the manual.
-2.We aim to generate responses that preserve the nuances and specific tone of the head office staff's previous answers.
+This system is utilized within our internal chat application, enabling head office staff to respond to inquiries from branch offices. The distinctive feature is our use of a vector database built from past question-and-answer (Q&A) pairs, rather than from the original manual data. This approach was adopted for two primary reasons:<br>
+1.The inquiries often originate from users who couldn't find or understand the answers even after reading the manual.<br>
+2.We aim to generate responses that preserve the nuances and specific tone of the head office staff's previous answers.<br>
 - [Evaluation process]
 The application's workflow involves storing designated evaluation CSV files in Google Cloud Storage (GCS). These files are then read as blobs into temporary files within the Streamlit interface, and the actual writing of this data is triggered by a button press.
 - [Technical Skills]
@@ -53,11 +53,13 @@ Cloud Run, GCS, Artifact Registry Streamlit, RAG, langchain, ChromaDB
 
 ### 3.AI for Suggestion Triage and Assignment(_March 2025 - May 2025_)
 - [Background]
-Head office personnel currently receive requests and improvement proposals, identified by branch office staff during their daily operations, through a dedicated suggestion board system. Over the past four years, this system has accumulated approximately 4,000 entries. The responsible personnel requested an AI solution to automate two key tasks: 1) identifying whether newly submitted suggestions duplicate existing ones, and 2) assigning these suggestions to the appropriate department for response.
+Head office personnel currently receive requests and improvement proposals, identified by branch office staff during their daily operations, through a dedicated suggestion board system. Over the past four years, this system has accumulated approximately 4,000 entries. The responsible personnel requested an AI solution to automate two key tasks:<br>
+1.identifying whether newly submitted suggestions duplicate existing ones.<br>
+2.assigning these suggestions to the appropriate department for response.<br>
 - [AI process]
-An AI system was developed, comprising two primary agents:
-1.A Duplicate Detection Agent to identify recurring suggestions.
-2.A Department Assignment Agent to allocate suggestions to the relevant department.
+An AI system was developed, comprising two primary agents:<br>
+1.A Duplicate Detection Agent to identify recurring suggestions.<br>
+2.A Department Assignment Agent to allocate suggestions to the relevant department.<br>
 - [Evaluation Process]
 The application's workflow involves storing designated evaluation CSV files in Google Cloud Storage (GCS). These files are then read as blobs into temporary files within the Streamlit interface, and the actual writing of this data is triggered by a button press.
 - [Operational Process]
@@ -77,9 +79,9 @@ We're exploring ways to provide valuable information to advertisers in anticipat
 
 The AI project is divided into 3 phases:
 
-1.  **People Counting:** Counting the number of people.
-2.  **Demographic Analysis:** Gathering information about the characteristics of the people (e.g., age, gender).
-3.  **Engagement Tracking:** Determining whether people are looking at the digital signage or not.
+1.  People Counting: Counting the number of people.<br>
+2.  Demographic Analysis: Gathering information about the characteristics of the people (e.g., age, gender).<br>
+3.  Engagement Tracking: Determining whether people are looking at the digital signage or not.
 
 The initial development of 1st phases was completed on Google Cloud Platform (GCP), using the Mediapipe object detection model and the DeepSort tracking algorithm. However, we are now exploring edge devices due to privacy concerns (PII).
 
