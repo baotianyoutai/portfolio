@@ -29,8 +29,7 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 - [Background]
 The Market Operations Department handles foreign remittances, a process that requires the use of international balance of payments item numbers. To streamline this process, employees currently need to consult a Japanese central bank manual (in PDF format), which is approximately 80 pages long. To reduce the time spent referencing this manual daily, we initiated an AI development project using the Retrieval-Augmented Generation (RAG) approach.
 - [AI Process]
-We developed a RAG system (indexing, retrieving, and generation) using the following steps:
-
+We developed a RAG system (indexing, retrieving, and generation) using the following steps:<br>
 1.began by chunking the PDF document.<br>
 2.created a searchable document from the chunks.<br>
 3.implemented the RAG system using Langchain and Chroma DB.<br>
