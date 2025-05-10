@@ -1,5 +1,7 @@
 # AI/ML engineer 
 
+※ Modified in _20250510
+
 #### Technical skills 
 **Cloud**
 - GCP(Main), AWS, Azure(used for Intelligence doccument for pdf processing)
@@ -39,7 +41,7 @@ The application's workflow involves storing designated evaluation CSV files in G
 - [Technical Skills]
 Cloud Run, GCS, Artifact Registry Streamlit, RAG, langchain, ChromaDB
 
-### 3.AI System for Suggestion Triage and Assignment(_March 2025 - May 2025_)
+### 3.AI for Suggestion Triage and Assignment(_March 2025 - May 2025_)
 - [Background]
 Head office personnel currently receive requests and improvement proposals, identified by branch office staff during their daily operations, through a dedicated suggestion board system. Over the past four years, this system has accumulated approximately 4,000 entries. The responsible personnel requested an AI solution to automate two key tasks: 1) identifying whether newly submitted suggestions duplicate existing ones, and 2) assigning these suggestions to the appropriate department for response.
 - [AI process]
@@ -53,10 +55,12 @@ Initially, a vector database is created using all suggestion data accumulated to
 - [Technical Skills]
 Cloud Run, GCS, Artifact Registry , Streamlit, RAG, langchain, langgraph, ChromaDB
 
-### 4.
+### 4.AI for searching relevant information for preparing loan approval documents(_Now -_)
+- developing same way for above.
+  
+### 5.AI reporting for Monitoring Financial Product Sales(_Now -_)
 
-### 5.
-### 6.
+### 6.Ad-Tech(Object Tracking for )
 
 ## Certification([Credly](https://www.credly.com/users/yuta-tokita))
 **AWS**<br>
