@@ -112,7 +112,7 @@ Edge computing, mediapipe, pinto-model, deepsort
 [テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ（学生部門・社会人部門）画像から踊り手が扇子を持っているか否かを当てよう!](https://signate.jp/competitions/1506)
 
 
-**Kaggle(🥉1)**
+**Kaggle(🥈1)**
 [My profile in Kaggle](https://www.kaggle.com/tok1t4)
 - 219th in 3757th(Forecasting Competition end in _July 2025_)
 [Jane Street Real-Time Market Data Forecasting](https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting)<br>
@@ -122,6 +122,8 @@ Predict financial market responders using real-world data.<br>
 ## Talks & Lectures
 - [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
 ![intro labs](/assets/img/intro_labs.png)<br>
+
+- [AI-agent 実践集中コース LTs hosted by Google.](https://youtu.be/d6A4VnyZTk4)
   
 ## Publications
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
