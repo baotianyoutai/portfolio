@@ -26,8 +26,11 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 ## Projects
 
 ### 1.AI for searching International Balance of Payments Item Numbers(_November 2024 - March 2025_)
-- [Background]
-The Market Operations Department handles foreign remittances, a process that requires the use of international balance of payments item numbers. To streamline this process, employees currently need to consult a Japanese central bank manual (in PDF format), which is approximately 80 pages long. To reduce the time spent referencing this manual daily, we initiated an AI development project using the Retrieval-Augmented Generation (RAG) approach.
+
+#### Situation
+- The Market Operations Department handles foreign remittances, a process that requires the use of international balance of payments item numbers. Foreign remittance operations required employees to consult an 80-page manual published by Bank of Japan, consuming significant time. 
+- Centralized operations(caused by concentration of decision-making and information at the head office) increased workload, and knowledge sharing for new hires was a challenge.
+
 - [AI Process]
 We developed a RAG system (indexing, retrieving, and generation) using the following steps:<br>
 1.began by chunking the PDF document.<br>
