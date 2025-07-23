@@ -31,15 +31,18 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 - The Market Operations Department handles foreign remittances, a process that requires the use of international balance of payments item numbers. Foreign remittance operations required employees to consult an 80-page manual published by Bank of Japan, consuming significant time. 
 - Centralized operations(caused by concentration of decision-making and information at the head office) increased workload, and knowledge sharing for new hires was a challenge.
 
-- [AI Process]
-We developed a RAG system (indexing, retrieving, and generation) using the following steps:<br>
-1.began by chunking the PDF document.<br>
-2.created a searchable document from the chunks.<br>
-3.implemented the RAG system using Langchain and Chroma DB.<br>
-4.deployed the system on Cloud Run with a Streamlit interface.<br>
-5.To enhance usability, especially for users, we integrated the following feature:<br>
-The Streamlit interface displays the specific sections of the original PDF document from which retrieved information originates, using metadata from the document chunks. This helps users easily verify the source of the information.
-- [Technical Skills] Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB, 
+#### Task 
+- Reduce manual reference time and develop an AI that enables anyone to make judgments by referencing past cases and manuals.
+
+#### Solution
+Developed a RAG system (indexing, retrieving, and generation) using the following steps:<br>
+1.Chunking the PDF document.<br>
+2.Created a searchable document from the chunks by embedding.<br>
+3.Implemented the RAG system using Langchain and Chroma DB.<br>
+4.Deployed the system on Cloud Run with a Streamlit interface.<br>
+5.Integrated a feature to display specific pages of the original PDF to allow users to easily verify information sources.
+
+#### Technical Skills: Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB, 
 
 ### 2.AI for answering questions regarding loan approval authority(_November 2024 - March 2025_)
 - responsible for the end-to-end development of an AI application designed for eight users. 
