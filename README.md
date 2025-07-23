@@ -35,12 +35,15 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 - Reduce manual reference time and develop an AI that enables anyone to make judgments by referencing past cases and manuals.
 
 #### Solution
-Developed a RAG system (indexing, retrieving, and generation) using the following steps:<br>
-1.Chunking the PDF document.<br>
-2.Created a searchable document from the chunks by embedding.<br>
-3.Implemented the RAG system using Langchain and Chroma DB.<br>
-4.Deployed the system on Cloud Run with a Streamlit interface.<br>
-5.Integrated a feature to display specific pages of the original PDF to allow users to easily verify information sources.
+-Developed a RAG system (indexing, retrieving, and generation) using the following steps:<br>
+1. Chunking the PDF document.
+2. Created a searchable document from the chunks by embedding.
+3. Implemented the RAG system using Langchain and Chroma DB.
+4. Deployed the system on Cloud Run with a Streamlit interface.
+5. Integrated a feature to display specific pages of the original PDF to allow users to easily verify information sources.
+
+#### Result
+- achieved approximately 80% accuracy (rated as "correct" or "helpful"). 
 
 #### Technical Skills: Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB, 
 
