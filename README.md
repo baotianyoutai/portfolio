@@ -35,7 +35,8 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 - Reduce manual reference time and develop an AI that enables anyone to make judgments by referencing past cases and manuals.
 
 #### Solution
--Developed a RAG system (indexing, retrieving, and generation) using the following steps:<br>
+Developed a RAG system (indexing, retrieving, and generation) using the following steps:<br>
+
 1. Chunking the PDF document.
 2. Created a searchable document from the chunks by embedding.
 3. Implemented the RAG system using Langchain and Chroma DB.
@@ -43,13 +44,17 @@ B.S., Statistics | Hosei Univ.(_May 2024_)
 5. Integrated a feature to display specific pages of the original PDF to allow users to easily verify information sources.
 
 #### Result
-- achieved approximately 80% accuracy (rated as "correct" or "helpful"). 
+achieved approximately 80% accuracy (rated as "correct" or "helpful"). 
 
 #### Technical Skills: Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB, 
 
 ### 2.AI for answering questions regarding loan approval authority(_November 2024 - March 2025_)
-- responsible for the end-to-end development of an AI application designed for eight users. 
-- [Background]
+
+#### Situation
+- There are manuals that detail the scope of approval authority for branch managers, indicating what falls under their discretion versus what requires formal deliberation. The Corporate Support Department receives and addresses inquiries on this matter.
+- They needed caution with loan approval authorities, where mistakes were unacceptable. So, The Corporate Support Department received approximately 80 inquiries per month, many of which were not resolved by manuals.
+
+
 This system is utilized within our internal chat application, enabling head office staff to respond to inquiries from branch offices. The distinctive feature is our use of a vector database built from past question-and-answer (Q&A) pairs, rather than from the original manual data. This approach was adopted for two primary reasons:<br>
 1.The inquiries often originate from users who couldn't find or understand the answers even after reading the manual.<br>
 2.We aim to generate responses that preserve the nuances and specific tone of the head office staff's previous answers.<br>
