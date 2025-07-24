@@ -52,31 +52,41 @@ achieved approximately 80% accuracy (rated as "correct" or "helpful").
 
 #### Situation
 - There are manuals that detail the scope of approval authority for branch managers, indicating what falls under their discretion versus what requires formal deliberation. The Corporate Support Department receives and addresses inquiries on this matter.
-- They needed caution with loan approval authorities, where mistakes were unacceptable. So, The Corporate Support Department received approximately 80 inquiries per month, many of which were not resolved by manuals.
+- Branch managers and deputy loan managers(branch offices) needed to exercise extreme caution with loan approval authorities, where mistakes were unacceptable. The Corporate Support Department received approximately 80 inquiries per month, many of which were not resolved by manuals. Now, This AI is utilized within our internal chat application, enabling The Corporate Support Department's staff to respond to inquiries from branch offices. The distinctive feature is our use of a vector database built from past question-and-answer (Q&A) pairs, rather than from the original manual data. This approach was adopted for two primary reasons:
+  
+  1. The inquiries often originate from users who couldn't find or understand the answers even after reading the manual.
+  2. We aim to generate responses that preserve the nuances and specific tone of the head office staff's previous answers.
+
+#### Task
+Develop an end-to-end AI application integrated with the internal chat system to serve as a response assistant. This involved building a vector database from approximately 5,000 past Q&A pairs (not manuals) to address complex inquiries and preserve the specific tone of HQ responses.
+
+#### Action
+Constructed a vector database using actual past Q&A cases. Implemented RAG to format answers (e.g., "answer," "conditions," "references") to maintain the nuance of HQ responses. Designed and developed the AI application for 8+ users. Implemented an evaluation process using CSV files stored in GCS, readable as temporary blobs in Streamlit.
+
+#### Result
+Achieved approximately 80% accuracy in responses. User feedback was highly positive, including "reduced search time," "helpful phrasing," "no need to search manuals from scratch," "past answers are helpful," and "highly efficient for similar cases." This not only reduced HQ staff's inquiry handling time but also supported branch staff in making quick and accurate decisions, improving overall operational quality.
+
+#### Technical Skills: Cloud Run, GCS, Artifact Registry Streamlit, RAG, langchain, ChromaDB
+
+### 3.AI for Suggestion Duplication and Assignment (_March 2025 - May 2025_)
+
+#### Situation
+Headquarters received requests and improvement proposals, identified by branch office staff during their daily operations, through a dedicated suggestion board system. Over the past four years, this system has accumulated approximately 4,000 unique entries. Identifying duplicate suggestions and assigning them to the correct department was time-consuming, taking up to 15 minutes per suggestion even for experienced staff, and more for new hires.
+
+#### Task
+Develop an AI solution to automate the identification of duplicate suggestions and their assignment to appropriate departments:
+
+1. identifying whether newly submitted suggestions duplicate existing ones.
+2. assigning these suggestions to the appropriate department for response.
+
+#### Action
+Developed an AI system comprising a Duplicate Detection Agent and a Department Assignment Agent. Constructed a vector database from all existing suggestion data, stored it in GCS, and loaded it as a temporary blob into Streamlit for operational use. Implemented a real-time update mechanism where users could input new suggestions via Streamlit, triggering a database update and upload to GCS, ensuring data currency.
+
+#### Result
+The similar suggestion search feature was highly praised, especially by new staff. The AI successfully reduced the time for duplicate checking from an average of 15 minutes to approximately 1 minute per suggestion, resulting in an annual saving of approximately 233 hours (14 minutes saved per suggestion × 1,000 suggestions = 14,000 minutes) for processing around 1,000 proposals annually.
 
 
-This system is utilized within our internal chat application, enabling head office staff to respond to inquiries from branch offices. The distinctive feature is our use of a vector database built from past question-and-answer (Q&A) pairs, rather than from the original manual data. This approach was adopted for two primary reasons:<br>
-1.The inquiries often originate from users who couldn't find or understand the answers even after reading the manual.<br>
-2.We aim to generate responses that preserve the nuances and specific tone of the head office staff's previous answers.<br>
-- [Evaluation process]
-The application's workflow involves storing designated evaluation CSV files in Google Cloud Storage (GCS). These files are then read as blobs into temporary files within the Streamlit interface, and the actual writing of this data is triggered by a button press.
-- [Technical Skills]
-Cloud Run, GCS, Artifact Registry Streamlit, RAG, langchain, ChromaDB
-
-### 3.AI for Suggestion Triage and Assignment(_March 2025 - May 2025_)
-- [Background]
-Head office personnel currently receive requests and improvement proposals, identified by branch office staff during their daily operations, through a dedicated suggestion board system. Over the past four years, this system has accumulated approximately 4,000 entries. The responsible personnel requested an AI solution to automate two key tasks:<br>
-1.identifying whether newly submitted suggestions duplicate existing ones.<br>
-2.assigning these suggestions to the appropriate department for response.<br>
-- [AI process]
-An AI system was developed, comprising two primary agents:<br>
-1.A Duplicate Detection Agent to identify recurring suggestions.<br>
-2.A Department Assignment Agent to allocate suggestions to the relevant department.<br>
-- [Evaluation Process]
-The application's workflow involves storing designated evaluation CSV files in Google Cloud Storage (GCS). These files are then read as blobs into temporary files within the Streamlit interface, and the actual writing of this data is triggered by a button press.
-- [Operational Process]
-Initially, a vector database is created using all suggestion data accumulated to date. This database is stored in GCS and loaded into Streamlit as a temporary blob for operational use. To add new suggestions, users input the required information for each respective field into text areas on the Streamlit interface. Upon clicking a button, the new suggestion is processed (added via an add_document function) and the updated data is uploaded to a designated GCS bucket, ensuring the vector database remains current.
-- [Technical Skills]
+#### Technical Skills
 Cloud Run, GCS, Artifact Registry , Streamlit, RAG, langchain, langgraph, ChromaDB
 
 ### 4.AI for searching relevant information for preparing loan approval documents(_Now -_)
