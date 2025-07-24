@@ -2,7 +2,7 @@
 
 ※ Modified in _20250724
 
-#### Technical skills 
+## Technical skills 
 **Cloud**
 - GCP, AWS
 
@@ -15,13 +15,27 @@
 - ImageClassification(timm,TTA, TTAch), ObjectDetection(Yolo series, Mediapipe ObjectDetector(effiecientdet), PINTO-model-zoo), Object Tracking(Centroid, DeepSort)
 - GenAI(VertexAI, genai, langchain/langsmith), AI-agent(google-adk, langgraph)
 
+## Summary
+
+AI/ML Engineer at Chibabank.Ltd, specializing in leveraging Large Language Models (LLMs) and Generative AI to drive internal business efficiency and automation. Proven track record in developing Retrieval-Augmented Generation (RAG) systems, researching edge AI solutions, and leading the end-to-end development of Q&A systems integrated with internal chat applications. Completed [Google's Advanced Solutions Lab ML Immersive Education](https://cloud.google.com/customers/chiba-bank?hl=ja) and holds multiple AWS and Google Cloud certifications. Demonstrated practical AI/ML skills and business problem-solving abilities through achievements in data science competitions like Kaggle and SIGNATE.
+
 ## Education (birth : 2001)
 B.S., Statistics | Hosei Univ.(_May 2024_)
 
 ## Work Experience
-**AI/ML engineer @ Chibabank.Ltd (_May 2024 - Present_)**
-- experienced [The ASL ML Immersive Education in Google]((https://cloud.google.com/customers/chiba-bank?hl=ja)), learned how to build end-to-end ML solutions using **tensorflow**  for 3 weeks, developed 1 prototype(japanese sign language AI using DNN, CNN, Transformer) for 1 weeks.(_October 2024_)<br>
-- developing 5 **ai-agent** applications in **Streamlit** on **Cloud Run**, keep developing 1 **edge computing** application.
+
+AI/ML Engineer @ Chibabank.Ltd (May 2024 - Present)
+Location: Chiba City, Chiba Prefecture
+
+## Responsibilities:
+
+Developing AI/ML solutions for internal business efficiency and automation.
+
+Designing, developing, and operating RAG systems and AI agents utilizing LLMs.
+
+Researching and developing AI solutions involving image analysis, object detection, and object tracking.
+
+Designing, developing, and deploying AI applications on cloud platforms (GCP, AWS).
 
 ## Projects
 
