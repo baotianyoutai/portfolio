@@ -1,13 +1,13 @@
 # AI/ML engineer 
 
-※ Modified in _20250510
+※ Modified in _20250724
 
 #### Technical skills 
 **Cloud**
-- GCP, AWS, Azure(used for Intelligence doccument for pdf processing)
+- GCP, AWS
 
 **Python Framework**
-- Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe
+- Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe, opencv...
   
 **Python skills**
 - ML(lightgbm, catboost, xgboost, tabnet), CV(kf, skf, group-kf), ensemble/voting
@@ -46,7 +46,8 @@ Developed a RAG system (indexing, retrieving, and generation) using the followin
 #### Result
 achieved approximately 80% accuracy (rated as "correct" or "helpful"). 
 
-#### Technical Skills: Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB, 
+#### Technical Skills
+Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB, 
 
 ### 2.AI for answering questions regarding loan approval authority(_November 2024 - March 2025_)
 
@@ -66,7 +67,8 @@ Constructed a vector database using actual past Q&A cases. Implemented RAG to fo
 #### Result
 Achieved approximately 80% accuracy in responses. User feedback was highly positive, including "reduced search time," "helpful phrasing," "no need to search manuals from scratch," "past answers are helpful," and "highly efficient for similar cases." This not only reduced HQ staff's inquiry handling time but also supported branch staff in making quick and accurate decisions, improving overall operational quality.
 
-#### Technical Skills: Cloud Run, GCS, Artifact Registry Streamlit, RAG, langchain, ChromaDB
+#### Technical Skills
+Cloud Run, GCS, Artifact Registry Streamlit, RAG, langchain, ChromaDB
 
 ### 3.AI for Suggestion Duplication and Assignment (_March 2025 - May 2025_)
 
@@ -89,29 +91,32 @@ The similar suggestion search feature was highly praised, especially by new staf
 #### Technical Skills
 Cloud Run, GCS, Artifact Registry , Streamlit, RAG, langchain, langgraph, ChromaDB
 
-### 4.AI for searching relevant information for preparing loan approval documents(_Now -_)
-- developing same architecture for above.
-  
+### 4.Object Tracking Solution for Providing Signage Advertisers with Viewership Metrics and Audience Demographics (_November 2024 - Present_)
+
+#### Situation
+Anticipating a large-scale digital signage expansion in branches by 2026, the goal was to provide valuable data (viewership metrics, audience demographics) to advertisers. Privacy concerns (PII) necessitated exploring on-site data processing(local PC) or edge device solutions.
+
+#### Task
+Lead AI development in three phases: People Counting, Demographic Analysis, and Engagement Tracking, with a research-oriented approach. Focus on Phase 1 POC and feasibility of edge device migration.
+
+#### Action
+Completed initial Phase 1 (People Counting) development on GCP using Mediapipe object detection and DeepSort tracking. Migrated the cloud POC model to a local PC environment for in-house experiments with internal and 1080P USB cameras. Identified that high-definition cameras are crucial for accuracy. Identified NVIDIA Jetson Orin Nano 8GB as a key edge device for future scaling and operational use.
+
+#### Result
+The local POC validated the approach and clarified future development direction. The established roadmap includes selecting high-performance cameras, consulting legal counsel regarding PII handling in video data, and concurrently developing Phase 2 & 3 advanced models. Migration to NVIDIA Jetson Orin Nano 8GB is anticipated to support scalability and privacy protection for future large-scale deployments.
+
+#### Technical Skills
+mediapipe, pinto-model, deepsort, yolo11(ultralytics)
+
 ### 5.AI reporting for Monitoring Financial Product Sales(_Now -_)
 - developing genAI System for Analyzing and Reporting on Financial Product Recommendations, Purchases, and Risk Understanding Based on Interview Transcripts
+- develop on VScode ssh connection to EC2 on AWS.
 
-### 6.Object Tracking solution for providing Signage Advertisers with Viewership Metrics and Audience Demographics(_November 2024 - Now_)
-- [Background]
-We're exploring ways to provide valuable information to advertisers in anticipation of expanding large-scale digital signage at our branches in 2026. I am solely responsible for the AI development, taking a research-oriented approach.<br>
-The AI project is divided into 3 phases:<br>
-1.  People Counting: Counting the number of people.<br>
-2.  Demographic Analysis: Gathering information about the characteristics of the people (e.g., age, gender).<br>
-3.  Engagement Tracking: Determining whether people are looking at the digital signage or not.<br>
-The initial development of 1st phases was completed on Google Cloud Platform (GCP), using the Mediapipe object detection model and the DeepSort tracking algorithm. However, we are now exploring edge devices due to privacy concerns (PII).
 
-- [AI Process]
-Currently, we are planning to use Mediapipe combined with DeepSort. We are also evaluating PINTO-model alongside DeepSort as a potential alternative.<br>
-We are in the process of selecting an edge device now. The leading contenders are:<br>
-1.Google Coral<br>
-2.NVIDIA Jetson Orin Nano 8GB
+### 6.AI for searching relevant information for preparing loan approval documents(Pending)
+- developing same architecture for project2.
 
-- [Technical Skills]
-Edge computing, mediapipe, pinto-model, deepsort
+
 
 ## Certification([Credly](https://www.credly.com/users/yuta-tokita))
 **AWS**<br>
@@ -136,18 +141,11 @@ Edge computing, mediapipe, pinto-model, deepsort
 [テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ（学生部門・社会人部門）画像から踊り手が扇子を持っているか否かを当てよう!](https://signate.jp/competitions/1506)
 
 
-**Kaggle(🥈1)**
-[My profile in Kaggle](https://www.kaggle.com/tok1t4)
-- 219th in 3757th(Forecasting Competition end in _July 2025_)
-[Jane Street Real-Time Market Data Forecasting](https://www.kaggle.com/competitions/jane-street-real-time-market-data-forecasting)<br>
-![comp1](/assets/img/header.png)<br>
-Predict financial market responders using real-world data.<br>
-
 ## Talks & Lectures
 - [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
 ![intro labs](/assets/img/intro_labs.png)<br>
 
-- [AI-agent 実践集中コース LTs hosted by Google.](https://youtu.be/d6A4VnyZTk4)
+- [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
   
 ## Publications
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
