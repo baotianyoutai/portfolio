@@ -61,7 +61,10 @@ Developed a RAG system (indexing, retrieving, and generation) using the followin
 achieved approximately 80% accuracy (rated as "correct" or "helpful"). 
 
 #### Technical Skills
-Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB, 
+Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB
+
+---
+
 
 ### 2.AI for answering questions regarding loan approval authority(_November 2024 - March 2025_)
 
@@ -84,6 +87,8 @@ Achieved approximately 80% accuracy in responses. User feedback was highly posit
 #### Technical Skills
 Cloud Run, GCS, Artifact Registry Streamlit, RAG, langchain, ChromaDB
 
+---
+
 ### 3.AI for Suggestion Duplication and Assignment (_March 2025 - May 2025_)
 
 #### Situation
@@ -105,6 +110,8 @@ The similar suggestion search feature was highly praised, especially by new staf
 #### Technical Skills
 Cloud Run, GCS, Artifact Registry , Streamlit, RAG, langchain, langgraph, ChromaDB
 
+---
+
 ### 4.Object Tracking Solution for Providing Signage Advertisers with Viewership Metrics and Audience Demographics (_November 2024 - Present_)
 
 #### Situation
@@ -122,6 +129,8 @@ The local POC validated the approach and clarified future development direction.
 #### Technical Skills
 mediapipe, pinto-model, deepsort, yolo11(ultralytics)
 
+---
+
 ### 5.AI reporting for Monitoring Financial Product Sales(_Now -_)
 - developing genAI System for Analyzing and Reporting on Financial Product Recommendations, Purchases, and Risk Understanding Based on Interview Transcripts
 - develop on VScode ssh connection to EC2 on AWS.
@@ -133,7 +142,7 @@ mediapipe, pinto-model, deepsort, yolo11(ultralytics)
 ### 7.Masking PII in images(Pending)
 - investigated the potential for reducing the effort involved in personal information masking by utilizing multimodal LLMs and EasyOCR.
 
-
+---
 
 ## Certification([Credly](https://www.credly.com/users/yuta-tokita))
 **AWS**<br>
@@ -147,6 +156,7 @@ mediapipe, pinto-model, deepsort, yolo11(ultralytics)
 - Professional Machine Learning Engineer(_November 2024_)<br>
 - Professional Cloud Architect(_May 2025_)<br>
 
+---
 
 ## Competitions Awards
 **SIGNATE(Master 85th in 200,000th(🥇1🥈1🥉4)**
@@ -157,12 +167,15 @@ mediapipe, pinto-model, deepsort, yolo11(ultralytics)
 - 14th in 140th(Solo🥈)<br>
 [テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ（学生部門・社会人部門）画像から踊り手が扇子を持っているか否かを当てよう!](https://signate.jp/competitions/1506)
 
+---
 
 ## Talks & Lectures
 - [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
 ![intro labs](/assets/img/intro_labs.png)<br>
 
 - [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
+
+---
   
 ## Publications
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
