@@ -116,6 +116,9 @@ mediapipe, pinto-model, deepsort, yolo11(ultralytics)
 ### 6.AI for searching relevant information for preparing loan approval documents(Pending)
 - developing same architecture for project2.
 
+### 7.Masking PII in images(Pending)
+- investigated the potential for reducing the effort involved in personal information masking by utilizing multimodal LLMs and EasyOCR.
+
 
 
 ## Certification([Credly](https://www.credly.com/users/yuta-tokita))
