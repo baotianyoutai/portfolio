@@ -57,7 +57,7 @@ _2024年11月~現在_：株式会社千葉銀行、正社員（デジタル戦�
 
 `成果`
 - 担当者による評価で、accuracy**80%**の達成
-- 従前のマニュアルから調査するよりも**検索時間を短縮**、ニュアンスを維持したことによる、**過去回答の言葉遣いが参考になる**等一定の高評価や、期待値である、問い合わせ対応の工数削減を達成できたと思料
+- 従前のマニュアルから調査するよりも`検索時間を短縮`、ニュアンスを維持したことによる、`過去回答の言葉遣いが参考になる`等一定の高評価や、期待値である、問い合わせ対応の工数削減を達成できたと思料
 
 `技術スキル`
 RAG, langchain, ChromaDB
@@ -167,10 +167,10 @@ https://github.com/user-attachments/assets/95be8593-1d7c-4933-84f8-700a6d912eba
 - Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe, opencv, jax/flax...
   
 `Python skills`
-- ML(lightgbm, catboost, xgboost, tabnet), CV(kf, skf, group-kf), ensemble/voting
-- NLP(BERT, DEBERTA, ROBERTa,), DL(CNN, RNN, GLU, transformer)
-- ImageClassification(timm,TTA, TTAch), ObjectDetection(Yolo series, Mediapipe ObjectDetector(effiecientdet), PINTO-model-zoo), Object Tracking(Centroid, DeepSort)
-- GenAI(VertexAI, genai, langchain/langsmith), AI-agent(google-adk, langgraph)
+- lightgbm, catboost, xgboostといった機械学習モデルやgroup-KFold等の交差検証,Optuna等のチューニング手法, 各種アンサンブル等
+- 自然言語処理や深層学習
+- 画像分類(timm,TTA, TTAch), 物体検出(Yolo series, Mediapipe, PINTO-model), 物体追跡(Centroid, DeepSort)
+- 生成AI(VertexAI, genai, langchain/langsmith), AIエージェント(google-adk, langgraph)
 
 # 受賞歴
 `SIGNATE(国内最大のAIモデルの精度を競うコンペティション)`
@@ -196,6 +196,12 @@ https://github.com/user-attachments/assets/95be8593-1d7c-4933-84f8-700a6d912eba
 
 # 自己PR
 
+ビジネス成果はもちろん、直面した課題や技術の深掘りをし、今後を見据えた自己啓発に取り組む
+
+` 経験に基づいたクラウドやローカルPCとの比較するため、エッジAIのような実環境への応用技術への取り組み`
+
 2025年9月から、エッジAIによるソリューションを提供できるようになるために、NVIDIA Jetson Orin Nanoを購入し、セットアップと最適化の検証に取り組み中。(広告効果検証AIで直面したプライバシーの保護やスケーラブルの観点、GPU等のコンピューティング、コストといった制約を乗り越えるための実践的な知見を得るため)
 
-また、AIの基礎理論や技術のキャッチアップをし、技術選定の根拠を深く説明できるように、技術コミュニティのconnpassの参加のほか、2025年10月より東京大学松尾・岩澤研究室主催のDeep Learning基礎講座やLLMs基礎編・応用編を受講中。
+` AIの基礎理論と最新技術等のキャッチアップ`
+
+技術選定の根拠を深く説明できるように、技術コミュニティのconnpassの参加のほか、2025年10月より東京大学松尾・岩澤研究室主催のDeep Learning基礎講座やLLMs基礎編・応用編を受講中。
