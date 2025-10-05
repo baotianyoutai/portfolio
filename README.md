@@ -1,182 +1,197 @@
-# AI/ML engineer 
+# 職務経歴書
+作成：2025年10月2日
 
-※ Modified in _20250724
+氏名：鴇田　優太
 
-## Technical skills 
-**Cloud**
-- GCP, AWS
+年齢：24歳
 
-**Python Framework**
-- Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe, opencv...
-  
-**Python skills**
-- ML(lightgbm, catboost, xgboost, tabnet), CV(kf, skf, group-kf), ensemble/voting
-- NLP(BERT, DEBERTA, ROBERTa,), DL(CNN, RNN, GLU, transformer)
-- ImageClassification(timm,TTA, TTAch), ObjectDetection(Yolo series, Mediapipe ObjectDetector(effiecientdet), PINTO-model-zoo), Object Tracking(Centroid, DeepSort)
-- GenAI(VertexAI, genai, langchain/langsmith), AI-agent(google-adk, langgraph)
+# 職務概要
+2024年3月に法政大学理工学部を卒業後、株式会社千葉銀行にAI/MLエンジニアとして入行。約1年半にわたり、生成AI（LLM）と画像認識技術を活用した業務効率化および自動化プロジェクトを、企画立案からモデル開発、アプリケーション運用まで一貫して主導。具体的には、
 
-## Summary
+`生成AI・RAGシステム開発`： 内部チャットアプリケーションと統合されたRAGシステムやAIエージェントを設計・開発。行内文書のセマンティック検索、自動的な文書振分、及び高精度な回答生成を実現し、部門の業務効率化に貢献。
 
-AI/ML Engineer at Chibabank.Ltd, specializing in leveraging Large Language Models (LLMs) and Generative AI to drive internal business efficiency and automation. Proven track record in developing Retrieval-Augmented Generation (RAG) systems, researching edge AI solutions, and leading the end-to-end development of Q&A systems integrated with internal chat applications. Completed [Google's Advanced Solutions Lab ML Immersive Education](https://cloud.google.com/customers/chiba-bank?hl=ja) and holds multiple AWS and Google Cloud certifications. Demonstrated practical AI/ML skills and business problem-solving abilities through achievements in data science competitions like Kaggle and SIGNATE.
+`画像認識`： デジタルサイネージの効果測定のための物体検知・物体追跡システム、および機密文書内の個人情報マスキングプロジェクトを担当。クラウド（GCP/AWS）環境とローカルPC上での運用まで実装(エッジAIも検討中)。
 
-## Education (birth : 2001)
-B.S., Statistics | Hosei Univ.(_May 2024_)
+`専門性・クラウド`： [GoogleのAdvanced Solutions Lab ML Immersive Education](https://cloud.google.com/customers/chiba-bank?hl=ja)を修了する他、複数のAWSおよびGoogle Cloud認定資格を取得。AIモデルの精度を競うコンペティションである、KaggleやSIGNATEでの実績を通じ、培った実装力やドメインをビジネスの課題に応用。
 
-## Work Experience
+# 職務経歴(所属企業)
 
-AI/ML Engineer @ Chibabank.Ltd (May 2024 - Present)
-Location: Chiba City, Chiba Prefecture
+_2024年4月~10月_：株式会社千葉銀行、研修（デジタル戦略部）
 
-## Responsibilities:
+_2024年10月~11月_:Google、外部出向([Google's Advanced Solutions Lab ML Immersive Education](https://cloud.google.com/customers/chiba-bank?hl=ja))
 
-Developing AI/ML solutions for internal business efficiency and automation.
+_2024年11月~現在_：株式会社千葉銀行、正社員（デジタル戦略部　AIソリューション室　AI/MLエンジニア）
 
-Designing, developing, and operating RAG systems and AI agents utilizing LLMs.
+# 職務経歴(プロジェクト詳細)
+株式会社千葉銀行：_2024年4月~現在_
 
-Researching and developing AI solutions involving image analysis, object detection, and object tracking.
+雇用形態：正社員
 
-Designing, developing, and deploying AI applications on cloud platforms (GCP, AWS).
+事業内容：普通銀行業務
 
-## Projects
+資本金：1,450億円(2025年3月31日時点)
 
-### 1.AI for searching International Balance of Payments Item Numbers(_November 2024 - March 2025_)
+売上高：3,621億79百万円(2025年3月時点)
 
-#### Situation
-- The Market Operations Department handles foreign remittances, a process that requires the use of international balance of payments item numbers. Foreign remittance operations required employees to consult an 80-page manual published by Bank of Japan, consuming significant time. 
-- Centralized operations(caused by concentration of decision-making and information at the head office) increased workload, and knowledge sharing for new hires was a challenge.
+上場：上場
 
-#### Task 
-- Reduce manual reference time and develop an AI that enables anyone to make judgments by referencing past cases and manuals.
+従業員数：4,076人
 
-#### Solution
-Developed a RAG system (indexing, retrieving, and generation) using the following steps:<br>
+## 1. 本部の企業サポート部向け　融資決裁権限に関する問い合わせアシスタントAIの開発
+`期間`
+- _2024年11月~2025年3月_（5カ月）で、QAアシスタントアプリケーションの設計から開発、運用を担当(エンジニア2名）
 
-1. Chunking the PDF document.
-2. Created a searchable document from the chunks by embedding.
-3. Implemented the RAG system using Langchain and Chroma DB.
-4. Deployed the system on Cloud Run with a Streamlit interface.
-5. Integrated a feature to display specific pages of the original PDF to allow users to easily verify information sources.
+`対象と課題`
+- 対象：起業サポート部の5名の問い合わせ担当者
+- 課題：月80件に及ぶ融資決裁権限に関する問い合わせ対応負荷の軽減と、対応品質均一化(ニュアンス等)
 
-#### Result
-achieved approximately 80% accuracy (rated as "correct" or "helpful"). 
+`背景概要`
 
-#### Technical Skills
+銀行では、融資実行の可否を決定する`決済権限`に関するマニュアルが存在し、融資案件が支店長等の裁量内に該当するか本部への正式な稟議が必要か記載されている。細心の注意が必要なため、マニュアルを読んでも解決しないものが多く、稟議が必要な案件であるかを問い合わせチャットボットで受け付けている(月80件)。問い合わせ対応負荷の軽減と、対応品質均一化を解決するため、AIを活用し、マニュアルそのものではなく、過去のQAペアをデータにした類似検索等を可能にするRAGによるソリューションを開発。
+
+`役割、アクション`
+- チャットボット内の、過去5000ペアのQAセット内の個人情報マスキング作業、csvの整形(項目、質問、回答)、回答のフォーマット化(回答、条件、参照)
+- 過去QAセットを用いたchoromaベクトルデータベースの作成、langchainを用いたRAGシステムの構築
+- pywidgetを利用したアプリケーションUIの構築
+- RLHFの観点でUI上での評価システムの構築
+
+`成果`
+- 担当者による評価で、accuracy**80%**の達成
+- 従前のマニュアルから調査するよりも**検索時間を短縮**、ニュアンスを維持したことによる、**過去回答の言葉遣いが参考になる**等一定の高評価や、期待値である、問い合わせ対応の工数削減を達成できたと思料
+
+`技術スキル`
+RAG, langchain, ChromaDB
+
+## 2. 市場業務部向け　国際収支項目番号検索AIの開発(外国送金マニュアルRAGシステム)
+
+- `期間`： _2024年11月～2025年3月（5カ月）_　で、RAGアプリケーションの設計から開発、運用を担当(エンジニア2名）
+
+`対象と課題`
+- 対象：市場業務部の行員
+- 課題：日本銀行が発行した、80ページ長のマニュアルを都度参照する工数、および本部への業務集中による負荷軽減
+
+`背景概要`
+
+市場業務部では、送金の目的や理由に応じて指定されている3桁の番号である`国際収支項目番号`の日本銀行への報告が必要な、外国送金業務を取り扱っており、日本銀行が発行した80ページものマニュアルを参照しており、多大な時間を消費している。また、意思決定や情報の本部集中が進んでおり、業務量の増加や新人へのナレッジのシェアが課題となっている。そのため、マニュアルを参照する工数の削減及び、誰でも過去のケースや該当する箇所を参照できる、RAGソリューションを構築した。
+
+`役割、アクション`
+- 業務課題のヒアリングから、RAGシステムの要件定義から開発、アプリケーションでのデプロイまでをエンドツーエンドで担当
+- PDFのチャンク化、ベクトルデータベースの作成、Langchain/ChromaDBを用いたRAGシステムの構築
+- メタデータを活用した元PDF参照ページの表示機能の構築
+- コンテナアプリケーションとして、GCPのCloud Runにデプロイ、運用
+
+`成果`
+- auuracy**80%**の達成。(担当者による評価で、`correct`/`helpful`)
+- マニュアル参照時間の削減
+
+`技術スキル`
 Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB
 
----
+## 3. デジタル戦略部業務改革G向け　提案制度振り分けAI(改善提案の重複判定・担当部署自動割り当てといった、提案掲示板運営の効率化を図るAIエージェントの開発)
+
+`期間`
+- _2025年3月～2025年5月（3カ月）_　でアプリケーションの設計から開発、運用を担当(エンジニア1名)
+
+`対象と課題`
+- 対象：デジタル戦略部業務改革Gの提案制度システム受付担当者(月担当2名)
+- 課題：新規提案の重複判定と担当部署の割り当てプロセスの効率化(15分程度)
+
+`背景概要`
+
+デジタル戦略部業務改革Gでは、支店の行員から、日々の業務で感じた業務の改善案や提案を受け付けている掲示板を４年ほど運用しており、過去4000件のエントリーがある。担当者は、新しく来た提案に対して過去に重複する提案がないか、合わせて新提案の場合にどの部署が対応すべきかの割り振り作業に1件あたり15分程の時間を費やしている。このプロセスの効率化のため、AIエージェントによるソリューションを構築
+
+`役割、アクション`
+- 課題のヒアリング
+- Langgraphを活用したAIエージェントシステム(重複判定エージェントと所管部振り分けエージェント)の設計・開発。
+- 過去の4000件のデータの個人情報マスキングやデータセットの整形
+-  Langchain/ChromaDBを用いたRAGシステムの構築
+-  Streamlitを活用したUIの構築
+-  コンテナアプリケーションとして、GCPのCloud Runにデプロイ、運用
+- choromaベクトルデータベースの作成
+- 担当者が新しい提案をUI上でリアルタイムで更新できるように、GCSや一時データ、Streamlitをうまく連携することで実現(データベースの更新の負荷を軽減)
+
+`成果`
+- 重複チェックや所管部署への割り振りプロセスの効率化(1件あたり平均15分から約1分)
+- 類似検索の観点で新規スタッフからは非常に高評価
+- 年間約1,000件の提案処理に対し、約233時間の業務工数削減（14分/件 × 1,000件）
+
+`技術スキル`
+- Cloud Run, GCS, Artifact Registry, Streamlit, RAG, langchain, langgraph, ChromaDB
+
+## 4. 広告出稿主向け　デジタルサイネージの効果測定AI(視聴人数、属性(世代や性別)、また交通人数)の研究開発
+
+`期間`： _2024年11月～現在_ で、アプリケーションの設計から開発、運用を担当(エンジニア1名)
+
+`対象と課題`
+- 対象：デジタル戦略部広告チーム、既存、また新規のデジタルサイネージ広告主
+- 課題；2026年大型デジタルサイネージの拡大や差別化の観点で、広告出稿主に対する結果の還元
+
+`背景概要`
+
+弊社では、支店内でのデジタルサイネージ広告業を取り扱っているが、広告出稿主に対して結果の還元が出来ていない(マス業界を見ても同様の課題あり)。2026年大型デジタルサイネージの拡大や他者との差別化の観点で、データの還元をすることで、既存のお客様の定着化、また新規の獲得を狙うため、AIによる統計データの還元ソリューションを開発する。フェーズ２段階に分けており、１段階では支店前の交通人数測定のAI、２段階では、サイネージの試聴判定や属性分析といった統計情報の測定をするAIとしてプロジェクトに着手。なお、現在は両モデルは開発済みで、検証や展開に向けた個人情報の整理やリスクの評価等に着手中。
+
+`役割とアクション`
+- GCP上で、MediapipeやDeepSORTによるモデルの構築、検証(フェーズ1)
+- USBカメラとローカルPC上で、フェーズ1,2のモデルの構築、検証
+- コンプライアンス・リスク統括部と連携し、検証や展開に向けた個人情報保護観点での弁護士相談や利用目的の策定等(フェーズ1,2)
+- カメラの解像度やモデルのサイズ、PCやエッジデバイスの性能といった、精度と速度のトレードオフを考慮した検証および要件の定義
+
+`成果`
+- ローカル環境でのPoCにより技術的な実現性を検証し、今後の展開に向けた開発方向性、カメラ性能、プライバシー保護戦略を明確化
+- 新しいビジネス展開に向けた重要な技術的・戦略的基盤を確立
+
+`技術スキル`
+YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvidia jetson, ...
 
 
-### 2.AI for answering questions regarding loan approval authority(_November 2024 - March 2025_)
-
-#### Situation
-- There are manuals that detail the scope of approval authority for branch managers, indicating what falls under their discretion versus what requires formal deliberation. The Corporate Support Department receives and addresses inquiries on this matter.
-- Branch managers and deputy loan managers(branch offices) needed to exercise extreme caution with loan approval authorities, where mistakes were unacceptable. The Corporate Support Department received approximately 80 inquiries per month, many of which were not resolved by manuals. Now, This AI is utilized within our internal chat application, enabling The Corporate Support Department's staff to respond to inquiries from branch offices. The distinctive feature is our use of a vector database built from past question-and-answer (Q&A) pairs, rather than from the original manual data. This approach was adopted for two primary reasons:
-  
-  1. The inquiries often originate from users who couldn't find or understand the answers even after reading the manual.
-  2. We aim to generate responses that preserve the nuances and specific tone of the head office staff's previous answers.
-
-#### Task
-Develop an end-to-end AI application integrated with the internal chat system to serve as a response assistant. This involved building a vector database from approximately 5,000 past Q&A pairs (not manuals) to address complex inquiries and preserve the specific tone of HQ responses.
-
-#### Action
-Constructed a vector database using actual past Q&A cases. Implemented RAG to format answers (e.g., "answer," "conditions," "references") to maintain the nuance of HQ responses. Designed and developed the AI application for 8+ users. Implemented an evaluation process using CSV files stored in GCS, readable as temporary blobs in Streamlit.
-
-#### Result
-Achieved approximately 80% accuracy in responses. User feedback was highly positive, including "reduced search time," "helpful phrasing," "no need to search manuals from scratch," "past answers are helpful," and "highly efficient for similar cases." This not only reduced HQ staff's inquiry handling time but also supported branch staff in making quick and accurate decisions, improving overall operational quality.
-
-#### Technical Skills
-Cloud Run, GCS, Artifact Registry Streamlit, RAG, langchain, ChromaDB
-
----
-
-### 3.AI for Suggestion Duplication and Assignment (_March 2025 - May 2025_)
-
-#### Situation
-Headquarters received requests and improvement proposals, identified by branch office staff during their daily operations, through a dedicated suggestion board system. Over the past four years, this system has accumulated approximately 4,000 unique entries. Identifying duplicate suggestions and assigning them to the correct department was time-consuming, taking up to 15 minutes per suggestion even for experienced staff, and more for new hires.
-
-#### Task
-Develop an AI solution to automate the identification of duplicate suggestions and their assignment to appropriate departments:
-
-1. identifying whether newly submitted suggestions duplicate existing ones.
-2. assigning these suggestions to the appropriate department for response.
-
-#### Action
-Developed an AI system comprising a Duplicate Detection Agent and a Department Assignment Agent. Constructed a vector database from all existing suggestion data, stored it in GCS, and loaded it as a temporary blob into Streamlit for operational use. Implemented a real-time update mechanism where users could input new suggestions via Streamlit, triggering a database update and upload to GCS, ensuring data currency.
-
-#### Result
-The similar suggestion search feature was highly praised, especially by new staff. The AI successfully reduced the time for duplicate checking from an average of 15 minutes to approximately 1 minute per suggestion, resulting in an annual saving of approximately 233 hours (14 minutes saved per suggestion × 1,000 suggestions = 14,000 minutes) for processing around 1,000 proposals annually.
-
-
-#### Technical Skills
-Cloud Run, GCS, Artifact Registry , Streamlit, RAG, langchain, langgraph, ChromaDB
-
----
-
-### 4.Object Tracking Solution for Providing Signage Advertisers with Viewership Metrics and Audience Demographics (_November 2024 - Present_)
-
-#### Situation
-Anticipating a large-scale digital signage expansion in branches by 2026, the goal was to provide valuable data (viewership metrics, audience demographics) to advertisers. Privacy concerns (PII) necessitated exploring on-site data processing(local PC) or edge device solutions.
-
-#### Task
-Lead AI development in three phases: People Counting, Demographic Analysis, and Engagement Tracking, with a research-oriented approach. Focus on Phase 1 POC and feasibility of edge device migration.
-
-#### Action
-Completed initial Phase 1 (People Counting) development on GCP using Mediapipe object detection and DeepSort tracking. Migrated the cloud POC model to a local PC environment for in-house experiments with internal and 1080P USB cameras. Identified that high-definition cameras are crucial for accuracy. Identified NVIDIA Jetson Orin Nano 8GB as a key edge device for future scaling and operational use.
-
-#### Result
-The local POC validated the approach and clarified future development direction. The established roadmap includes selecting high-performance cameras, consulting legal counsel regarding PII handling in video data, and concurrently developing Phase 2 & 3 advanced models. Migration to NVIDIA Jetson Orin Nano 8GB is anticipated to support scalability and privacy protection for future large-scale deployments.
-
-#### Technical Skills
-mediapipe, pinto-model, deepsort, yolo11(ultralytics)
-
----
-
-### 5.AI reporting for Monitoring Financial Product Sales(_Now -_)
-- developing genAI System for Analyzing and Reporting on Financial Product Recommendations, Purchases, and Risk Understanding Based on Interview Transcripts
-- develop on VScode ssh connection to EC2 on AWS.
-
-
-### 6.AI for searching relevant information for preparing loan approval documents(Pending)
-- developing same architecture for project2.
-
-### 7.Masking PII in images(Pending)
-- investigated the potential for reducing the effort involved in personal information masking by utilizing multimodal LLMs and EasyOCR.
-
----
-
-## Certification([Credly](https://www.credly.com/users/yuta-tokita))
-**AWS**<br>
+# 資格・スキル
+## 資格([Credly](https://www.credly.com/users/yuta-tokita))
+`AWS`
 - AWS Certified Cloud Practitioner(_June 2024_)<br>
 - AWS Certified Solutions Architect – Associate(_July 2024_)<br>
 - AWS Certified AI Practitioner(_February 2025_)<br>
 
-**Google Cloud**<br>
+`Google Cloud`
 - Associate Cloud Engineer(_July 2024_)<br>
 - Advanced Solutions Lab ML Immersive Education(_October 2024_)<br>
 - Professional Machine Learning Engineer(_November 2024_)<br>
 - Professional Cloud Architect(_May 2025_)<br>
 
----
+## スキル
+`Python Framework`
+- Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe, opencv, jax/flax...
+  
+`Python skills`
+- ML(lightgbm, catboost, xgboost, tabnet), CV(kf, skf, group-kf), ensemble/voting
+- NLP(BERT, DEBERTA, ROBERTa,), DL(CNN, RNN, GLU, transformer)
+- ImageClassification(timm,TTA, TTAch), ObjectDetection(Yolo series, Mediapipe ObjectDetector(effiecientdet), PINTO-model-zoo), Object Tracking(Centroid, DeepSort)
+- GenAI(VertexAI, genai, langchain/langsmith), AI-agent(google-adk, langgraph)
 
-## Competitions Awards
-**SIGNATE(Master 85th in 200,000th(🥇1🥈1🥉4)**
-[My profile in Signate](https://signate.jp/users/84569)
-- 7th in 325th(Solo🥇)<br>
+# 受賞歴
+`SIGNATE(国内最大のAIモデルの精度を競うコンペティション)`
+
+称号：Master(🥇1🥈1🥉4)　200,000人中85位　[プロフィール](https://signate.jp/users/84569)
+- 325人中7位　入賞(ソロ金メダル🥇)<br>
 [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ （一般部門・学生部門）食品パッケージを食料・飲料に分類しよう!](https://signate.jp/competitions/1106)
 ![comp1](/assets/img/tokita_compe.png)
-- 14th in 140th(Solo🥈)<br>
+- 140人中14位(ソロ銀メダル🥈)<br>
 [テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ（学生部門・社会人部門）画像から踊り手が扇子を持っているか否かを当てよう!](https://signate.jp/competitions/1506)
 
 ---
 
-## Talks & Lectures
+## 講演・講義
 - [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
 ![intro labs](/assets/img/intro_labs.png)<br>
 
 - [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
 
----
-  
-## Publications
+## 出版
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
 [Abstract](/assets/img/20X4110-0.pdf) [Paper](/assets/img/20X4110-1.pdf) [Slide](/assets/img/20X4110-2.pdf).
+
+
+# 自己PR
+
+2025年9月から、エッジAIによるソリューションを提供できるようになるために、NVIDIA Jetson Orin Nanoを購入し、セットアップと最適化の検証に取り組み中。(広告効果検証AIで直面したプライバシーの保護やスケーラブルの観点、GPU等のコンピューティング、コストといった制約を乗り越えるための実践的な知見を得るため)
+
+また、AIの基礎理論や技術のキャッチアップをし、技術選定の根拠を深く説明できるように、技術コミュニティのconnpassの参加のほか、2025年10月より東京大学松尾・岩澤研究室主催のDeep Learning基礎講座やLLMs基礎編・応用編を受講中。
