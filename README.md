@@ -145,7 +145,7 @@ YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvi
 
 `イメージ *実際は、統計情報をまとめた月間のレポートとしてCSVファイルを作成、提供`
 
-https://github.com/user-attachments/assets/95be8593-1d7c-4933-84f8-700a6d912eba
+[ads_image](https://github.com/user-attachments/assets/95be8593-1d7c-4933-84f8-700a6d912eba)
 
 
 
@@ -178,6 +178,7 @@ https://github.com/user-attachments/assets/95be8593-1d7c-4933-84f8-700a6d912eba
 称号：Master(🥇1🥈1🥉4)　200,000人中85位　[プロフィール](https://signate.jp/users/84569)
 - 325人中7位　入賞(ソロ金メダル🥇)<br>
 [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ （一般部門・学生部門）食品パッケージを食料・飲料に分類しよう!](https://signate.jp/competitions/1106)
+![comp1](/assets/img/tokita_compe.png)
 - 140人中14位(ソロ銀メダル🥈)<br>
 [テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ（学生部門・社会人部門）画像から踊り手が扇子を持っているか否かを当てよう!](https://signate.jp/competitions/1506)
 
@@ -198,10 +199,10 @@ https://github.com/user-attachments/assets/95be8593-1d7c-4933-84f8-700a6d912eba
 
 ビジネス成果はもちろん、直面した課題や技術の深掘りをし、今後を見据えた自己啓発に取り組む
 
-` 経験に基づいたクラウドやローカルPCとの比較するため、エッジAIのような実環境への応用技術への取り組み`
+`経験に基づいたクラウドやローカルPCとの比較するため、エッジAIのような実環境への応用技術への取り組み`
 
 2025年9月から、エッジAIによるソリューションを提供できるようになるために、NVIDIA Jetson Orin Nanoを購入し、セットアップと最適化の検証に取り組み中。(広告効果検証AIで直面したプライバシーの保護やスケーラブルの観点、GPU等のコンピューティング、コストといった制約を乗り越えるための実践的な知見を得るため)
 
-` AIの基礎理論と最新技術等のキャッチアップ`
+`AIの基礎理論と最新技術等のキャッチアップ`
 
 技術選定の根拠を深く説明できるように、技術コミュニティのconnpassの参加のほか、2025年10月より東京大学松尾・岩澤研究室主催のDeep Learning基礎講座やLLMs基礎編・応用編を受講中。
