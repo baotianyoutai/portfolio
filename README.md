@@ -145,8 +145,6 @@ YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvi
 
 `イメージ *実際は、統計情報をまとめた月間のレポートとしてCSVファイルを作成、提供`
 
-
-
 https://github.com/user-attachments/assets/2896be4e-c3e0-4524-b15d-df0d7db6f64f
 
 
