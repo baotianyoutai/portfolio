@@ -151,7 +151,7 @@ YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvi
 https://github.com/user-attachments/assets/d609a6a2-664b-4958-9dec-30059cd07233
 
 
-[Ads_image.mp4](/assets/img/ads_image.mp4)
+[Ads_image.mp4](https://github.com/user-attachments/assets/d609a6a2-664b-4958-9dec-30059cd07233)
 
 
 # 資格・スキル
