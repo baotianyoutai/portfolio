@@ -145,7 +145,8 @@ YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvi
 
 `イメージ *実際は、統計情報をまとめた月間のレポートとしてCSVファイルを作成、提供`
 
-[ads_image](https://github.com/user-attachments/assets/95be8593-1d7c-4933-84f8-700a6d912eba)
+
+https://github.com/user-attachments/assets/95be8593-1d7c-4933-84f8-700a6d912eba
 
 
 
@@ -175,7 +176,7 @@ YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvi
 # 受賞歴
 `SIGNATE(国内最大のAIモデルの精度を競うコンペティション)`
 
-称号：Master(🥇1🥈1🥉4)　200,000人中85位　[プロフィール](https://signate.jp/users/84569)
+称号：Master(🥇1🥈1🥉4)　200,000人中85位　[プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)
 - 325人中7位　入賞(ソロ金メダル🥇)<br>
 [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ （一般部門・学生部門）食品パッケージを食料・飲料に分類しよう!](https://signate.jp/competitions/1106)
 ![comp1](/assets/img/tokita_compe.png)
