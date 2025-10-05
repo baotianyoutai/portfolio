@@ -143,6 +143,10 @@ Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB
 `技術スキル`
 YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvidia jetson, ...
 
+`イメージ *実際は、統計情報をまとめた月間のレポートとしてCSVファイルを作成、提供`
+
+[image](/assets/img/ads_image.mp4)
+
 
 # 資格・スキル
 ## 資格([Credly](https://www.credly.com/users/yuta-tokita))
