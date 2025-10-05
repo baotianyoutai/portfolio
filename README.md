@@ -180,7 +180,6 @@ https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac
 称号：Master(🥇1🥈1🥉4)　200,000人中85位　[プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)
 - 325人中7位　入賞(ソロ金メダル🥇)<br>
 [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ （一般部門・学生部門）食品パッケージを食料・飲料に分類しよう!](https://signate.jp/competitions/1106)
-![comp1](/assets/img/tokita_compe.png)
 - 140人中14位(ソロ銀メダル🥈)<br>
 [テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ（学生部門・社会人部門）画像から踊り手が扇子を持っているか否かを当てよう!](https://signate.jp/competitions/1506)
 
