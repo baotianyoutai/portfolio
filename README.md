@@ -1,11 +1,11 @@
-# 職務経歴書
+## 職務経歴書
 作成：2025年10月2日
 
 氏名：鴇田　優太
 
 年齢：24歳
 
-# 職務概要
+## 職務概要
 2024年3月に法政大学理工学部を卒業後、株式会社千葉銀行にAI/MLエンジニアとして入行。約1年半にわたり、生成AI（LLM）と画像認識技術を活用した業務効率化および自動化プロジェクトを、企画立案からモデル開発、アプリケーション運用まで一貫して主導。具体的には、
 
 `生成AI・RAGシステム開発`： 内部チャットアプリケーションと統合されたRAGシステムやAIエージェントを設計・開発。行内文書のセマンティック検索、自動的な文書振分、及び高精度な回答生成を実現し、部門の業務効率化に貢献。
@@ -14,7 +14,7 @@
 
 `専門性・クラウド`： [GoogleのAdvanced Solutions Lab ML Immersive Education](https://cloud.google.com/customers/chiba-bank?hl=ja)を修了する他、複数のAWSおよびGoogle Cloud認定資格を取得。AIモデルの精度を競うコンペティションである、KaggleやSIGNATEでの実績を通じ、培った実装力やドメインをビジネスの課題に応用。
 
-# 職務経歴(所属企業)
+## 職務経歴(所属企業)
 
 _2024年4月~10月_：株式会社千葉銀行、研修（デジタル戦略部）
 
@@ -22,7 +22,7 @@ _2024年10月~11月_:Google、外部出向([Google's Advanced Solutions Lab ML I
 
 _2024年11月~現在_：株式会社千葉銀行、正社員（デジタル戦略部　AIソリューション室　AI/MLエンジニア）
 
-# 職務経歴(プロジェクト詳細)
+## 職務経歴(プロジェクト詳細)
 株式会社千葉銀行：_2024年4月~現在_
 
 雇用形態：正社員
@@ -37,7 +37,7 @@ _2024年11月~現在_：株式会社千葉銀行、正社員（デジタル戦�
 
 従業員数：4,076人
 
-## 1. 本部の企業サポート部向け　融資決裁権限に関する問い合わせアシスタントAIの開発
+### 1. 本部の企業サポート部向け　融資決裁権限に関する問い合わせアシスタントAIの開発
 `期間`
 - _2024年11月~2025年3月_（5カ月）で、QAアシスタントアプリケーションの設計から開発、運用を担当(エンジニア2名）
 
@@ -62,7 +62,7 @@ _2024年11月~現在_：株式会社千葉銀行、正社員（デジタル戦�
 `技術スキル`
 RAG, langchain, ChromaDB
 
-## 2. 市場業務部向け　国際収支項目番号検索AIの開発(外国送金マニュアルRAGシステム)
+### 2. 市場業務部向け　国際収支項目番号検索AIの開発(外国送金マニュアルRAGシステム)
 
 - `期間`： _2024年11月～2025年3月（5カ月）_　で、RAGアプリケーションの設計から開発、運用を担当(エンジニア2名）
 
@@ -87,7 +87,7 @@ RAG, langchain, ChromaDB
 `技術スキル`
 Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB
 
-## 3. デジタル戦略部業務改革G向け　提案制度振り分けAI(改善提案の重複判定・担当部署自動割り当てといった、提案掲示板運営の効率化を図るAIエージェントの開発)
+### 3. デジタル戦略部業務改革G向け　提案制度振り分けAI(改善提案の重複判定・担当部署自動割り当てといった、提案掲示板運営の効率化を図るAIエージェントの開発)
 
 `期間`
 - _2025年3月～2025年5月（3カ月）_　でアプリケーションの設計から開発、運用を担当(エンジニア1名)
@@ -118,7 +118,7 @@ Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB
 `技術スキル`
 - Cloud Run, GCS, Artifact Registry, Streamlit, RAG, langchain, langgraph, ChromaDB
 
-## 4. 広告出稿主向け　デジタルサイネージの効果測定AI(視聴人数、属性(世代や性別)、また交通人数)の研究開発
+### 4. 広告出稿主向け　デジタルサイネージの効果測定AI(視聴人数、属性(世代や性別)、また交通人数)の研究開発
 
 `期間`： _2024年11月～現在_ で、アプリケーションの設計から開発、運用を担当(エンジニア1名)
 
@@ -151,8 +151,8 @@ https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac
 
 
 
-# 資格・スキル
-## 資格([Credly](https://www.credly.com/users/yuta-tokita))
+## 資格・スキル
+### 資格([Credly](https://www.credly.com/users/yuta-tokita))
 `AWS`
 - AWS Certified Cloud Practitioner(_June 2024_)<br>
 - AWS Certified Solutions Architect – Associate(_July 2024_)<br>
@@ -164,7 +164,7 @@ https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac
 - Professional Machine Learning Engineer(_November 2024_)<br>
 - Professional Cloud Architect(_May 2025_)<br>
 
-## スキル
+### スキル
 `Python Framework`
 - Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe, opencv, jax/flax...
   
@@ -174,7 +174,7 @@ https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac
 - 画像分類(timm,TTA, TTAch), 物体検出(Yolo series, Mediapipe, PINTO-model), 物体追跡(Centroid, DeepSort)
 - 生成AI(VertexAI, genai, langchain/langsmith), AIエージェント(google-adk, langgraph)
 
-# 受賞歴
+## 受賞歴
 `SIGNATE(国内最大のAIモデルの精度を競うコンペティション)`
 
 称号：Master(🥇1🥈1🥉4)　200,000人中85位　[プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)
@@ -185,18 +185,18 @@ https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac
 
 ---
 
-## 講演・講義
+### 講演・講義
 - [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
 ![intro labs](/assets/img/intro_labs.png)<br>
 
 - [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
 
-## 出版
+### 出版
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
 [Abstract](/assets/img/20X4110-0.pdf) [Paper](/assets/img/20X4110-1.pdf) [Slide](/assets/img/20X4110-2.pdf).
 
 
-# 自己PR
+## 自己PR
 
 ビジネス成果はもちろん、直面した課題や技術の深掘りをし、今後を見据えた自己啓発に取り組む
 
