@@ -28,11 +28,7 @@ _2024年11月~現在_：株式会社千葉銀行、正社員（デジタル戦�
 上場：上場 | 従業員数：4,076人
 
 ### 1. 本部の企業サポート部向け　融資決裁権限に関する問い合わせアシスタントAIの開発
-【期間】
-
-- _2024年11月~2025年3月_（5カ月）で、QAアシスタントアプリケーションの設計から開発、運用を担当(エンジニア2名）
-
-`対象と課題`
+- 期間：_2024年11月~2025年3月_（5カ月）で、QAアシスタントアプリケーションの設計から開発、運用を担当(エンジニア2名）
 - 対象：起業サポート部の5名の問い合わせ担当者
 - 課題：月80件に及ぶ融資決裁権限に関する問い合わせ対応負荷の軽減と、対応品質均一化(ニュアンス等)
 
@@ -55,9 +51,7 @@ RAG, langchain, ChromaDB
 
 ### 2. 市場業務部向け　国際収支項目番号検索AIの開発(外国送金マニュアルRAGシステム)
 
-- `期間`： _2024年11月～2025年3月（5カ月）_　で、RAGアプリケーションの設計から開発、運用を担当(エンジニア2名）
-
-`対象と課題`
+- 期間： _2024年11月～2025年3月（5カ月）_　で、RAGアプリケーションの設計から開発、運用を担当(エンジニア2名）
 - 対象：市場業務部の行員
 - 課題：日本銀行が発行した、80ページ長のマニュアルを都度参照する工数、および本部への業務集中による負荷軽減
 
@@ -79,11 +73,7 @@ RAG, langchain, ChromaDB
 Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB
 
 ### 3. デジタル戦略部業務改革G向け　提案制度振り分けAI(改善提案の重複判定・担当部署自動割り当てといった、提案掲示板運営の効率化を図るAIエージェントの開発)
-
-`期間`
-- _2025年3月～2025年5月（3カ月）_　でアプリケーションの設計から開発、運用を担当(エンジニア1名)
-
-`対象と課題`
+- 期間：_2025年3月～2025年5月（3カ月）_　でアプリケーションの設計から開発、運用を担当(エンジニア1名)
 - 対象：デジタル戦略部業務改革Gの提案制度システム受付担当者(月担当2名)
 - 課題：新規提案の重複判定と担当部署の割り当てプロセスの効率化(15分程度)
 
@@ -110,10 +100,7 @@ Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB
 - Cloud Run, GCS, Artifact Registry, Streamlit, RAG, langchain, langgraph, ChromaDB
 
 ### 4. 広告出稿主向け　デジタルサイネージの効果測定AI(視聴人数、属性(世代や性別)、また交通人数)の研究開発
-
-`期間`： _2024年11月～現在_ で、アプリケーションの設計から開発、運用を担当(エンジニア1名)
-
-`対象と課題`
+- 期間： _2024年11月～現在_ で、アプリケーションの設計から開発、運用を担当(エンジニア1名)
 - 対象：デジタル戦略部広告チーム、既存、また新規のデジタルサイネージ広告主
 - 課題；2026年大型デジタルサイネージの拡大や差別化の観点で、広告出稿主に対する結果の還元
 
@@ -136,18 +123,12 @@ YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvi
 
 `イメージ *実際は、統計情報をまとめた月間のレポートとしてCSVファイルを作成、提供`
 
-
-
 https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac
-
-
 
 ## 資格・スキル
 ### 資格([Credly](https://www.credly.com/users/yuta-tokita))
 `AWS`
-- AWS Certified Cloud Practitioner(_June 2024_)<br>
-- AWS Certified Solutions Architect – Associate(_July 2024_)<br>
-- AWS Certified AI Practitioner(_February 2025_)<br>
+AWS Certified Cloud Practitioner(_June 2024_) | AWS Certified Solutions Architect – Associate(_July 2024_) | AWS Certified AI Practitioner(_February 2025_)<br>
 
 `Google Cloud`
 - Associate Cloud Engineer(_July 2024_)<br>
