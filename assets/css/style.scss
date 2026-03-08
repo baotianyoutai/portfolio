@@ -2,24 +2,7 @@
 ---
 @import "main";
 
-/* 全体のフォント設定 */
+// ここにカスタムCSSを書く
 body {
-  /* 英語には Apple/Windows 標準の高品質フォント、日本語には游ゴシックを優先 */
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Yu Gothic", "YuGothic", "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  line-height: 1.75; /* 行間を少し広げて読みやすく */
-  letter-spacing: 0.02em; /* 字間をわずかに広げて高級感を出す */
-}
-
-/* 見出しをより引き締める */
-h1, h2, h3, h4, .post-title, .sidebar-nav-item {
-  font-family: inherit !important;
-  font-weight: 600 !important;
-  color: #222 !important;
-}
-
-/* コードブロック（エンジニアとして重要な部分） */
-code, pre {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif !important;
 }
