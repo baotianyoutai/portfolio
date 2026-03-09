@@ -140,9 +140,6 @@ YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvi
   <source src="https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac" type="video/mp4">
 </video>
 
-
-https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac
-
 ## 資格・スキル
 ### 資格([Credly](https://www.credly.com/users/yuta-tokita))
 `AWS`
