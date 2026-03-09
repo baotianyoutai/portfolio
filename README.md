@@ -136,6 +136,10 @@ Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB
 YOLO, mediapipe, ultralytics, PINTO_modelm centroid-base-tracking, DeeoSORT, nvidia jetson, ...
 
 `イメージ *実際は、統計情報をまとめた月間のレポートとしてCSVファイルを作成、提供`
+<video width="100%" controls muted>
+  <source src="https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac" type="video/mp4">
+</video>
+
 
 https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac
 
