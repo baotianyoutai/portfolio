@@ -2,8 +2,5 @@ title: YUTA TOKITA
 logo: /assets/img/my_headshot_circle.png
 show_downloads: true
 #theme: jekyll-theme-minimal
-theme: jekyll-theme-cayman
-
-description: >
-  <img src="/assets/img/my_headshot_circle.png" width="120" style="border-radius: 50%;"><br>
-  AI / Machine Learning Engineer at Chiba Bank
+#theme: jekyll-theme-cayman
+remote_theme: le4ker/personal-jekyll-theme
