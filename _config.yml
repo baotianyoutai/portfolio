@@ -1,39 +1,5 @@
-# title: YUTA TOKITA
-# logo: /assets/img/my_headshot_circle.png
-# show_downloads: true
-# #theme: jekyll-theme-minimal
+title: YUTA TOKITA
+logo: /assets/img/my_headshot_circle.png
+show_downloads: true
+theme: jekyll-theme-minimal
 # #theme: jekyll-theme-cayman
-# remote_theme: le4ker/personal-jekyll-theme
-
-# plugins:
-# - jekyll-remote-theme
-# - jekyll-feed
-# - jekyll-seo-tag
-
-title: 鴇田優太 | Portfolio
-description: AI Engineer / Datascientist at Chibabank from 2024.
-
-
-# theme: jekyll-theme-cayman
-
-remote_theme: le4ker/personal-jekyll-theme
-# 以前の style: ... は削除してください
-
-# Lagrangeに必要な基本設定
-name: "あなたの氏名"
-description: "AI/ML Engineer / Data Scientist"
-avatar: "https://github.com/baotianyoutai/portfolio/blob/main/assets/img/my_headshot_circle.png" # GitHubのアイコンを自動取得
-footer-text: "© 2026 Your Name"
-
-# ソーシャルリンク（アイコンが表示されます）
-google_analytics: 
-disqus: 
-email: "your-email@example.com"
-twitter_username: 
-github_username: "あなたのユーザー名"
-linkedin_username:
-
-plugins:
-- jekyll-remote-theme
-- jekyll-feed
-- jekyll-seo-tag
