@@ -4,3 +4,8 @@ show_downloads: true
 #theme: jekyll-theme-minimal
 #theme: jekyll-theme-cayman
 remote_theme: le4ker/personal-jekyll-theme
+
+plugins:
+- jekyll-remote-theme
+- jekyll-feed
+- jekyll-seo-tag
