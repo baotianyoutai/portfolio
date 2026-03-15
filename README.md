@@ -141,31 +141,34 @@ Cloud Run, GCS, Streamlit, RAG, langchain, ChromaDB
 #### 技術スキル
 YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvidia-jetson, ...
 
-#### イメージ *実際は、統計情報をまとめた月間のレポートを作成・提供
+#### 処理イメージ(実際は、統計情報をまとめた月間のレポートを作成・提供)
 <video width="100%" controls muted>
   <source src="https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac" type="video/mp4">
 </video>
 
 ## 資格・スキル
+
 ### 資格([Credly](https://www.credly.com/users/yuta-tokita))
-`AWS`
+
+#### AWS
 AWS Certified Cloud Practitioner(_June 2024_) | AWS Certified Solutions Architect – Associate(_July 2024_) | AWS Certified AI Practitioner(_February 2025_)<br>
 
-`Google Cloud`
+#### Google Cloud
 - Associate Cloud Engineer(_July 2024_)<br>
 - Advanced Solutions Lab ML Immersive Education(_October 2024_)<br>
 - Professional Machine Learning Engineer(_November 2024_)<br>
 - Professional Cloud Architect(_May 2025_)<br>
 
 ### スキル
-`Python Framework`
+#### Framework
 - Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe, opencv, jax/flax...
+- SQL, BQML(SQL on BigQuery)
   
-`Python skills`
+#### Python skills
 - lightgbm, catboost, xgboostといった機械学習モデルやgroup-KFold等の交差検証,Optuna等のチューニング手法, 各種アンサンブル等
 - 自然言語処理や深層学習
 - 画像分類(timm,TTA, TTAch), 物体検出(Yolo series, Mediapipe, PINTO-model), 物体追跡(Centroid, DeepSort)
-- 生成AI(VertexAI, genai, langchain/langsmith), AIエージェント(google-adk, langgraph)
+- 生成AI(VertexAI, genai, langchain/langsmith), AIエージェント(google-adk, langgraph), ローカルLLMの事後学習
 
 ## 受賞歴
 `SIGNATE(国内最大のAIモデルの精度を競うコンペティション)`
@@ -187,6 +190,10 @@ AWS Certified Cloud Practitioner(_June 2024_) | AWS Certified Solutions Architec
 ### 出版
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
 [Abstract](/assets/img/20X4110-0.pdf) [Paper](/assets/img/20X4110-1.pdf) [Slide](/assets/img/20X4110-2.pdf).
+
+## 社外活動
+松尾研DL, LLMコミュニティ所属
+
 
 
 ## 自己PR
