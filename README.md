@@ -146,49 +146,59 @@ YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvi
   <source src="https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac" type="video/mp4">
 </video>
 
+
 ## 資格・スキル
 
-### 資格([Credly](https://www.credly.com/users/yuta-tokita))
+### 資格
+[Credly Profile](https://www.credly.com/users/yuta-tokita)
 
 #### AWS
-AWS Certified Cloud Practitioner(_June 2024_) | AWS Certified Solutions Architect – Associate(_July 2024_) | AWS Certified AI Practitioner(_February 2025_)<br>
+* **AWS Certified AI Practitioner** (*2025/02*)
+* **AWS Certified Solutions Architect – Associate** (*2024/07*)
+* **AWS Certified Cloud Practitioner** (*2024/06*)
 
 #### Google Cloud
-- Associate Cloud Engineer(_July 2024_)<br>
-- Advanced Solutions Lab ML Immersive Education(_October 2024_)<br>
-- Professional Machine Learning Engineer(_November 2024_)<br>
-- Professional Cloud Architect(_May 2025_)<br>
+* **Professional Cloud Architect** (*2025/05*)
+* **Professional Machine Learning Engineer** (*2024/11*)
+* **Advanced Solutions Lab ML Immersive Education** (*2024/10*)
+* **Associate Cloud Engineer** (*2024/07*)
 
 ### スキル
-#### Framework
-- Pytorch, Tensorflow, Keras, timm, onnx, ultralytics, mediapipe, opencv, jax/flax...
-- SQL, BQML(SQL on BigQuery)
-  
-#### Python skills
-- lightgbm, catboost, xgboostといった機械学習モデルやgroup-KFold等の交差検証,Optuna等のチューニング手法, 各種アンサンブル等
-- 自然言語処理や深層学習
-- 画像分類(timm,TTA, TTAch), 物体検出(Yolo series, Mediapipe, PINTO-model), 物体追跡(Centroid, DeepSort)
-- 生成AI(VertexAI, genai, langchain/langsmith), AIエージェント(google-adk, langgraph), ローカルLLMの事後学習
+
+#### Machine Learning & AI
+* **Frameworks:** PyTorch, TensorFlow, Keras, JAX/Flax, ONNX, Mediapipe, OpenCV
+* **Computer Vision:** * 画像分類 (timm, TTA, TTAch)
+    * 物体検出 (YOLO series, Mediapipe, PINTO-model)
+    * 物体追跡 (Centroid, DeepSORT)
+    * Ultralytics
+* **Generative AI:** Vertex AI, LangChain/LangSmith, Google ADK (Agent Development Kit), LangGraph, ローカルLLMの事後学習
+* **Data Science:** LightGBM, CatBoost, XGBoost, 交差検証 (Group-KFold等), チューニング (Optuna等), 各種アンサンブル手法
+
+#### Data Engineering & Languages
+* **Languages:** Python, SQL
+* **Data Warehouse:** BigQuery ML (BQML)
+
 
 ## 受賞歴
-`SIGNATE(国内最大のAIモデルの精度を競うコンペティション)`
 
-称号：Master(🥇1🥈1🥉4)　200,000人中85位　[プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)
-- 325人中7位　入賞(ソロ金メダル🥇)<br>
-[テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ （一般部門・学生部門）食品パッケージを食料・飲料に分類しよう!](https://signate.jp/competitions/1106)
-- 140人中14位(ソロ銀メダル🥈)<br>
-[テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ（学生部門・社会人部門）画像から踊り手が扇子を持っているか否かを当てよう!](https://signate.jp/competitions/1506)
+### SIGNATE
+**称号：Master** (🥇1 | 🥈1 | 🥉4)
+*順位：200,000人中 **85位*** / [プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)
 
----
+* **入賞 (ソロ金メダル🥇)** | 7位 / 325人
+    * [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ](https://signate.jp/competitions/1106)
+* **ソロ銀メダル🥈** | 14位 / 140人
+    * [テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ](https://signate.jp/competitions/1506)
+   
 
-### 講演・講義
+## 講演・講義
 - [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
 ![intro labs](/assets/img/intro_labs.png)<br>
 
 - [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
 ![LT_1](/assets/img/LT_1.png)<br>
 
-### 出版
+## 出版
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
 [Abstract](/assets/img/20X4110-0.pdf) [Paper](/assets/img/20X4110-1.pdf) [Slide](/assets/img/20X4110-2.pdf).
 
@@ -199,6 +209,3 @@ AWS Certified Cloud Practitioner(_June 2024_) | AWS Certified Solutions Architec
 - [大規模言語モデル基礎編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model/)：[修了証](/assets/img/LLMbasic2025.pdf)
 - [大規模言語モデル応用編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model-advanced-course/)：受講中
   
-
-
-
