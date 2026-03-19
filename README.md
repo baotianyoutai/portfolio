@@ -150,28 +150,27 @@ YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvi
 
 ## 資格・スキル
 
-### 資格
-[Credly Profile](https://www.credly.com/users/yuta-tokita)
+### 資格[Credly Profile](https://www.credly.com/users/yuta-tokita)
 
 * **AWS**
   * **AWS Certified AI Practitioner** (*2025/02*)
   * **AWS Certified Solutions Architect – Associate** (*2024/07*)
   * **AWS Certified Cloud Practitioner** (*2024/06*)
 
-#### Google Cloud
-* **Professional Cloud Architect** (*2025/05*)
-* **Professional Machine Learning Engineer** (*2024/11*)
-* **Advanced Solutions Lab ML Immersive Education** (*2024/10*)
-* **Associate Cloud Engineer** (*2024/07*)
+* **Google Cloud**
+  * **Professional Cloud Architect** (*2025/05*)
+  * **Professional Machine Learning Engineer** (*2024/11*)
+  * **Advanced Solutions Lab ML Immersive Education** (*2024/10*)
+  * **Associate Cloud Engineer** (*2024/07*)
 
 ### スキル
 
-#### Machine Learning & AI
-* **Frameworks:** PyTorch, TensorFlow, Keras, JAX/Flax, ONNX, Mediapipe, OpenCV
-* **Computer Vision:** * 画像分類 (timm, TTA, TTAch)
+#### Machine Learning & Deep Learning
+* **Frameworks:** PyTorch, TensorFlow, Keras, JAX/Flax, ONNX, Mediapipe, OpenCV, Ultralytics
+* **Computer Vision:**
+    * 画像分類 (timm, TTA, TTAch)
     * 物体検出 (YOLO series, Mediapipe, PINTO-model)
     * 物体追跡 (Centroid, DeepSORT)
-    * Ultralytics
 * **Generative AI:** Vertex AI, LangChain/LangSmith, Google ADK (Agent Development Kit), LangGraph, ローカルLLMの事後学習
 * **Data Science:** LightGBM, CatBoost, XGBoost, 交差検証 (Group-KFold等), チューニング (Optuna等), 各種アンサンブル手法
 
@@ -179,18 +178,20 @@ YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvi
 * **Languages:** Python, SQL
 * **Data Warehouse:** BigQuery ML (BQML)
 
+---
 
 ## 受賞歴
 
 ### SIGNATE
-**称号：Master** (🥇1 | 🥈1 | 🥉4)
-*順位：200,000人中 **85位*** / [プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)
+- **称号：Master** (🥇1 | 🥈1 | 🥉4)
+- *順位：200,000人中 **85位*** / [プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)
 
-* **入賞 (ソロ金メダル🥇)** | 7位 / 325人
+* **入賞 (ソロ金メダル🥇)** : 7位 / 325人
     * [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ](https://signate.jp/competitions/1106)
-* **ソロ銀メダル🥈** | 14位 / 140人
+* **ソロ銀メダル🥈** : 14位 / 140人
     * [テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ](https://signate.jp/competitions/1506)
    
+---
 
 ## 講演・講義
 - [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
@@ -199,9 +200,13 @@ YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvi
 - [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
 ![LT_1](/assets/img/LT_1.png)<br>
 
+---
+
 ## 出版
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
 [Abstract](/assets/img/20X4110-0.pdf) [Paper](/assets/img/20X4110-1.pdf) [Slide](/assets/img/20X4110-2.pdf).
+
+---
 
 ## 社外活動
 - 松尾研DL/LLMコミュニティ所属
