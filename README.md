@@ -146,16 +146,17 @@ YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvi
   <source src="https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac" type="video/mp4">
 </video>
 
+---
 
 ## 資格・スキル
 
 ### 資格
 [Credly Profile](https://www.credly.com/users/yuta-tokita)
 
-#### AWS
-* **AWS Certified AI Practitioner** (*2025/02*)
-* **AWS Certified Solutions Architect – Associate** (*2024/07*)
-* **AWS Certified Cloud Practitioner** (*2024/06*)
+* **AWS**
+  * **AWS Certified AI Practitioner** (*2025/02*)
+  * **AWS Certified Solutions Architect – Associate** (*2024/07*)
+  * **AWS Certified Cloud Practitioner** (*2024/06*)
 
 #### Google Cloud
 * **Professional Cloud Architect** (*2025/05*)
