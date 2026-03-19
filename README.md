@@ -186,7 +186,7 @@ AWS Certified Cloud Practitioner(_June 2024_) | AWS Certified Solutions Architec
 ![intro labs](/assets/img/intro_labs.png)<br>
 
 - [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
-![LT_1](/assets/img/LT_1.pmg)<br>
+![LT_1](/assets/img/LT_1.png)<br>
 
 ### 出版
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
