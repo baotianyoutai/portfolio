@@ -193,6 +193,9 @@ AWS Certified Cloud Practitioner(_June 2024_) | AWS Certified Solutions Architec
 [Abstract](/assets/img/20X4110-0.pdf) [Paper](/assets/img/20X4110-1.pdf) [Slide](/assets/img/20X4110-2.pdf).
 
 ## 社外活動
-松尾研DL, LLMコミュニティ所属
+- 松尾研DL/LLMコミュニティ所属
+
+- Deep Learning Autumn 2025 修了
+[DL2025](/assets/img/DL2025.pdf)
 
 
