@@ -148,9 +148,7 @@ YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvi
 
 ---
 
-## 資格・スキル
-
-### 資格[Credly Profile](https://www.credly.com/users/yuta-tokita)
+## Certificate[Credly Profile](https://www.credly.com/users/yuta-tokita)
 
 * **AWS**
   * **AWS Certified AI Practitioner** (*2025/02*)
@@ -163,7 +161,9 @@ YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvi
   * **Advanced Solutions Lab ML Immersive Education** (*2024/10*)
   * **Associate Cloud Engineer** (*2024/07*)
 
-### スキル
+---
+
+## Skills
 
 #### Machine Learning & Deep Learning
 * **Frameworks:** PyTorch, TensorFlow, Keras, JAX/Flax, ONNX, Mediapipe, OpenCV, Ultralytics
@@ -180,14 +180,14 @@ YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvi
 
 ---
 
-## 受賞歴
+## Competition/Awards
 
-### SIGNATE
+#### SIGNATE
 **称号：Master** (🥇1 | 🥈1 | 🥉4)<br>
 *順位：200,000人中 **85位*** / [プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)<br>
 
-* **入賞 (ソロ金メダル🥇)** : 7位 / 325人
-    * [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ](https://signate.jp/competitions/1106)
+* [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ](https://signate.jp/competitions/1106)：**Solo Gold🥇**
+  * ![signate_1](/assets/img/signate_1.png)
 * **ソロ銀メダル🥈** : 14位 / 140人
     * [テクノプロ・デザイン社 日本舞踊の画像・動画解析チャレンジ](https://signate.jp/competitions/1506)
    
