@@ -196,6 +196,9 @@ AWS Certified Cloud Practitioner(_June 2024_) | AWS Certified Solutions Architec
 - 松尾研DL/LLMコミュニティ所属
 
 - [Deep Learning 基礎講座 2025 Autumn](https://weblab.t.u-tokyo.ac.jp/lecture/deep-learning/): [修了証](/assets/img/DL2025.pdf)（最終課題のVisual Question Answeringコンペで8位）
+- [大規模言語モデル基礎編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model/)：[修了証](/assets/img/LLMbasic2025.pdf)
+- [大規模言語モデル応用編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model-advanced-course/)：受講中
+  
 
 
 
