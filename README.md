@@ -183,8 +183,8 @@ YOLO, mediapipe, ultralytics, PINTO_model, centroid-base-tracking, DeeoSORT, nvi
 ## 受賞歴
 
 ### SIGNATE
-- **称号：Master** (🥇1 | 🥈1 | 🥉4)
-- *順位：200,000人中 **85位*** / [プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)
+**称号：Master** (🥇1 | 🥈1 | 🥉4)<br>
+*順位：200,000人中 **85位*** / [プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)<br>
 
 * **入賞 (ソロ金メダル🥇)** : 7位 / 325人
     * [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ](https://signate.jp/competitions/1106)
