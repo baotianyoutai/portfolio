@@ -137,13 +137,14 @@ LangGraph LangChain, RAG, ChromaDB, GCS, Cloud Run, Artifact Registry, Streamlit
 YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 
 #### **処理イメージ(実際は、統計情報として月間のレポートを作成・提供予定)**
+
 <video width="100%" controls muted>
   <source src="https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac" type="video/mp4">
 </video>
 
 ---
 
-## 株式会社エッジテクノロジー(出向中)：_2025年12月~現在_
+## **株式会社エッジテクノロジー(出向中)：_2025年12月~現在_**
 
 | 項目 | 内容 |
 | :--- | :--- |
@@ -154,10 +155,11 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 | **従業員数** | 99名(2025年6月時点) |
 
 
-### 1. S社_BigQueryを用いたブランダマスタ紐付けの検証PoC(RAG/BQML)
-- 期間：2025年12月~2026年1月（2カ月, エンジニア1名、PM1名）
-- 対象：S社(大手飲料メーカー）
-- 課題：開発・運用コストの削減、コスト、精度等を含めた実現可能性の検証
+### **5. S社(大手飲料メーカー)向け BigQueryを用いたブランダマスタ紐付けPoC(BQML/RAG)**
+- 期間：2025年12月~2026年1月（2カ月）
+- 体制：エンジニア1名、PM1名
+- 対象：大手飲料メーカーのIT/DX部門
+- ビジネス課題：既存システムのインフラ複雑性の排除、運用コスト・開発工数の削減（実現可能性の検証）
 
 #### 背景概要
 
