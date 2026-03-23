@@ -3,7 +3,7 @@
 
 ## 職務概要
 
-2024年3月に法政大学を卒業後、千葉銀行にてAI/MLエンジニアとしてキャリアを開始。生成AIとコンピュータビジョンを軸に、金融実務におけるDXプロジェクトを企画立案から商用運用まで一貫して主導。現在はグループ会社のエッジテクノロジー株式会社へ出向し、データサイエンティストとして高度な案件に従事。
+2024年3月に法政大学を卒業後、千葉銀行にてAI/MLエンジニアとしてキャリアを開始。生成AIとコンピュータビジョンを軸に、金融実務におけるDXプロジェクトを企画立案から商用運用まで一貫して主導。現在はグループ会社のエッジテクノロジー株式会社へ出向し、データサイエンティストとして案件に従事。
 
 主な実績と専門性：
 
@@ -155,10 +155,10 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 | **従業員数** | 99名(2025年6月時点) |
 
 
-### **5. S社(大手飲料メーカー)向け BigQueryを用いたブランダマスタ紐付けPoC(BQML/RAG)**
+### **5. 大手飲料メーカー向け BigQueryを用いたブランダマスタ紐付けPoC(BQML/RAG)**
 - **期間**：2025年12月~2026年1月（2カ月）
 - **体制**：エンジニア1名、PM1名
-- **対象**：大手飲料メーカーのIT/DX部門
+- **対象**：大手飲料メーカー
 - **ビジネス課題**：既存システムのインフラ複雑性の排除、運用コスト・開発工数の削減（実現可能性の検証）
 
 #### **背景概要**
@@ -174,38 +174,34 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 - プロシージャとして上記の一連のSQLをワークフローとして定義し、定期実行スケジュールの作成
   
 #### **成果**
-- 1,500件の商品データに対して正解率80%、実行時間1分半、コスト数十円とったパフォーマンスを実証。
-- 運用コスト削減：Big QueryのみでRAGを実現し、インフラ管理不要化による運用工数の削減
-- LLM処理コストの削減：商品名の前処理で80%削減、また完全一致結合を事前に行うことで、LLMへの入力トークンコストを削減
-- 拡張知識の利用：略称問題を解決し、商品名などのニュアンスが複雑なケースでの自動紐付けの実現性を検証
-- 処理速度・料金：BQMLによるLLM機能ではデフォルトでバッチ処理が有効なため、LLMの処理コストが半減し、かつ処理速度の向上が見込める
+1,500件の商品データに対して正解率80%、実行時間1分半、コスト数十円とったパフォーマンスを実証。また、Big QueryのみでRAGを実現することでインフラ管理不要化による運用工数の削減を証明。
 
 #### **Technical Stack**
 SQL, BQML, Google Cloud, Big Query
 
-### 2. S社_酒分類・ブランドマッチングモデルの精度改善プロジェクト(NLP/LLM)
-- 期間：2026年3月~現在（エンジニア1名、PM1名）
-- 対象：S社(大手飲料メーカー）
-- 課題：ブランドマッチングモデル等の精度改善
+### **2. 大手飲料メーカー向け　酒分類・ブランドマッチングモデルの精度改善PoC(NLP/LLM)**
+- **期間**：2026年3月~現在
+- **体制**：エンジニア1名、PM1名
+- **対象**：大手飲料メーカー
+- **ビジネス課題**: 本番運用して４年が経過し、精度が低下したレガシーなマッチングモデルの刷新と新規本契約の獲得
 
-#### 背景概要
+#### **背景概要**
+　本システムは、レシートの商品情報からブランド名を推定しマスタとの結合を行うシステムであり、現在本番運用中で、3,4年が経過している。モデルの再学習は行っておるが精度が落ちてきているため、モデルの改善などを行い、改善が見込まれた場合、本番契約の提案を行うプリセールスPoC。
 
-　本システムは、レシートの商品情報からブランド名を推定しマスタとの結合を行うシステムであり、現在本番運用中で、3,4年が経過している。モデルの再学習は行っておるが精度が落ちてきているため、モデルの改善などを行い、改善が見込まれたら本番契約の提案を行う想定で本プロジェクトのPoCに着手。
-
-#### 役割、アクション
-- 既存システムの理解(ルールベース＋SBERTを用いた対照学習）
-- プロジェクト計画の策定(提案内容や目標、期間の設定）
-- 検証：推論速度、コスト、精度等
-- アーキテクチャの変更検討
+#### **役割、アクション**
+- 既存システムの理解(ルールベース＋SBERTを用いた対照学習）と誤判定分析
+- アーキテクチャやプロセスの変更後、推論速度、コスト、精度を検証
 - 提案書の作成
   
-#### 成果
+#### **成果**
+現在進行中
 
-#### 技術スキル
+#### **技術スキル**
+Technical Stack: Sentece Transfomer, MultipleNegativesRankingLoss
 
 ---
 
-## Certificate[Credly Profile](https://www.credly.com/users/yuta-tokita)
+## **Certificate**[Credly Profile](https://www.credly.com/users/yuta-tokita)
 
 * **AWS**
   * **AWS Certified AI Practitioner** (*2025/02*)
@@ -220,9 +216,9 @@ SQL, BQML, Google Cloud, Big Query
 
 ---
 
-## Skills
+## **Skills**
 
-#### Machine Learning & Deep Learning
+#### **Machine Learning & Deep Learning**
 * **Frameworks:** PyTorch, TensorFlow, Keras, JAX/Flax, ONNX, Mediapipe, OpenCV, Ultralytics
 * **Computer Vision:**
     * 画像分類 (timm, TTA, TTAch)
@@ -231,15 +227,15 @@ SQL, BQML, Google Cloud, Big Query
 * **Generative AI:** Vertex AI, LangChain/LangSmith, Google ADK (Agent Development Kit), LangGraph, ローカルLLMの事後学習
 * **Data Science:** LightGBM, CatBoost, XGBoost, 交差検証 (Group-KFold等), チューニング (Optuna等), 各種アンサンブル手法
 
-#### Data Engineering & Languages
+#### **Data Engineering & Languages**
 * **Languages:** Python, SQL
 * **Data Warehouse:** BigQuery ML (BQML)
 
 ---
 
-## Competition/Awards
+## **Competition/Awards**
 
-#### SIGNATE
+#### **SIGNATE**
 称号：**Master** (🥇1 | 🥈1 | 🥉4)<br>
 順位：200,000人中 **85位*** / [プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)<br>
 
@@ -248,7 +244,7 @@ SQL, BQML, Google Cloud, Big Query
   
 ---
 
-## 講演・講義
+## **講演・講義**
 - [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
 ![intro labs](/assets/img/intro_labs.png)<br>
 
@@ -257,13 +253,13 @@ SQL, BQML, Google Cloud, Big Query
 
 ---
 
-## 出版
+## **出版**
 1.汎化性能を考慮した食品パッケージの画像分類, 鴇田優太, (2024)<br>
 [Abstract](/assets/img/20X4110-0.pdf) [Paper](/assets/img/20X4110-1.pdf) [Slide](/assets/img/20X4110-2.pdf).
 
 ---
 
-## 社外活動
+## **社外活動**
 - 松尾研DL/LLMコミュニティ所属
 
 - [Deep Learning 基礎講座 2025 Autumn](https://weblab.t.u-tokyo.ac.jp/lecture/deep-learning/): [修了証](/assets/img/DL2025.pdf)（最終課題のVisual Question Answeringコンペで8位）
