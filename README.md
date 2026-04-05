@@ -4,7 +4,7 @@
 ## 職務概要
 
 2024年3月に法政大学を卒業後、千葉銀行にてAI/MLエンジニアとしてキャリアを開始。生成AIとコンピュータビジョンを軸に、金融実務におけるDXプロジェクトを企画立案から商用運用まで一貫して主導。現在はグループ会社のエッジテクノロジー株式会社へ出向し、データサイエンティストとして案件に従事。
-https://github.com/baotianyoutai/portfolio/blob/main/assets/img/ads_image.mp4
+
 主な実績と専門性：
 
 - **生成AI・AIエージェントによる業務変革**：LangGraphやRAGを駆使し、行内業務の自動化を完遂。年間約233時間の工数削減（93%の効率化）など、定量的ROIを創出。
@@ -268,3 +268,7 @@ Technical Stack: Sentece Transfomer, MultipleNegativesRankingLoss
 - [大規模言語モデル基礎編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model/)：[修了証](/assets/img/LLMbasic2025.pdf)
 - [大規模言語モデル応用編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model-advanced-course/)：受講中
   
+
+https://github.com/user-attachments/assets/a5e84ba6-faac-44fd-89c7-4297eb68888c
+
+
