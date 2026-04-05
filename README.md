@@ -136,12 +136,14 @@ LangGraph LangChain, RAG, ChromaDB, GCS, Cloud Run, Artifact Registry, Streamlit
 #### **Technical Stack**
 YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 
-#### **処理イメージ(実際は、統計情報として月間のレポートを作成・提供予定)**
 
+#### 処理イメージ
+[処理イメージ(実際は、統計情報として月間のレポートを作成・提供予定)](https://youtu.be/rSKJr9EE3gk4)
+![ads_img_1](/assets/img/ads_img_1.png)<br>
 
-<video width="100%" controls muted>
+<!-- <video width="100%" controls muted>
   <source src="https://github.com/user-attachments/assets/cfca01e4-8313-44cd-ac9f-45480b2e01ec?raw=true" type="video/mp4">
-</video>
+</video> -->
 
 ## **株式会社エッジテクノロジー(出向中)：_2025年12月~現在_**
 
