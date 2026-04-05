@@ -143,8 +143,6 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 
 
 
-https://github.com/user-attachments/assets/2896be4e-c3e0-4524-b15d-df0d7db6f64f
-
 
 ## **株式会社エッジテクノロジー(出向中)：_2025年12月~現在_**
 
