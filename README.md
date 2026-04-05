@@ -137,20 +137,10 @@ LangGraph LangChain, RAG, ChromaDB, GCS, Cloud Run, Artifact Registry, Streamlit
 YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 
 #### **処理イメージ(実際は、統計情報として月間のレポートを作成・提供予定)**
-<video width="100%" controls muted>
-  <source src="https://github.com/user-attachments/assets/2896be4e-c3e0-4524-b15d-df0d7db6f64f?raw=true" type="video/mp4">
-</video>
 
 
 <video width="100%" controls muted>
   <source src="https://github.com/user-attachments/assets/cfca01e4-8313-44cd-ac9f-45480b2e01ec?raw=true" type="video/mp4">
-</video>
-
-![s](https://https://github.com/baotianyoutai/portfolio/blob/main/assets/img/ads_image.mp4)
-
-
-<video width="100%" controls muted>
-  <source src="https://https://github.com/baotianyoutai/portfolio/blob/main/assets/img/ads_image.mp4" type="video/mp4">
 </video>
 
 ## **株式会社エッジテクノロジー(出向中)：_2025年12月~現在_**
