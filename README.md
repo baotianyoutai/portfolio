@@ -137,7 +137,6 @@ LangGraph LangChain, RAG, ChromaDB, GCS, Cloud Run, Artifact Registry, Streamlit
 YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 
 #### **処理イメージ(実際は、統計情報として月間のレポートを作成・提供予定)**
-
 <video width="100%" controls muted>
   <source src="https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac" type="video/mp4">
 </video>
