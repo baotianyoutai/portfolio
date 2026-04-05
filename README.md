@@ -139,11 +139,9 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 #### **処理イメージ(実際は、統計情報として月間のレポートを作成・提供予定)**
 
 <video width="100%" controls muted>
-  <source src="https://github.com/user-attachments/assets/58bda5a1-1c3a-4c70-b46c-f6ad5ca75431" type="video/mp4">
+  <source src="
+https://github.com/baotianyoutai/portfolio/blob/main/assets/img/ads_image.mp4" type="video/mp4">
 </video>
-
-
-
 
 
 ## **株式会社エッジテクノロジー(出向中)：_2025年12月~現在_**
