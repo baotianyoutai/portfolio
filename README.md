@@ -142,7 +142,7 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 </video> -->
 
 <video width="100%" controls>
-  <source src="assets/img/ads_image.mp4" type="video/mp4">
+  <source src="./assets/img/ads_image.mp4" type="video/mp4">
 </video>
 ---
 
