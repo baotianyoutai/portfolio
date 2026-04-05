@@ -141,7 +141,6 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
   <source src="https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac" type="video/mp4">
 </video>
 
-https://github.com/user-attachments/assets/1369943c-c1d0-4563-815e-cb505e9011ac
 
 ---
 
