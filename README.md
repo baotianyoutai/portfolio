@@ -263,9 +263,7 @@ Technical Stack: Sentece Transfomer, MultipleNegativesRankingLoss
 
 - [Deep Learning 基礎講座 2025 Autumn](https://weblab.t.u-tokyo.ac.jp/lecture/deep-learning/): [修了証](/assets/img/DL2025.pdf)（最終課題のVisual Question Answeringコンペで8位）
 - [大規模言語モデル基礎編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model/)：[修了証](/assets/img/LLMbasic2025.pdf)
-- [大規模言語モデル応用編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model-advanced-course/)：受講中
+- [大規模言語モデル応用編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model-advanced-course/)：[修了証](/assets/img/LLMadvance.pdf)
   
-
-https://github.com/user-attachments/assets/a5e84ba6-faac-44fd-89c7-4297eb68888c
 
 
