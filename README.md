@@ -158,15 +158,15 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 
 #### **背景概要**
 
-　顧客先では、Google Cloud上でCloud FunctionやWorkflowsなど用いたマスタの紐付けプロジェクトのインフラの複雑性や開発・運用コストを懸念している。SQLベースでAI機能を利用できるBQMLや定期スケジュール実行などのBig Query内部機能を用いることで、従前のシステムの複雑性を排除したRAGベースの**商品名とブランド名の紐付けタスクの実現可能性を検証、提案するため本PoCに着手。
+　顧客先では、Google Cloud上でCloud FunctionやWorkflowsなど用いたマスタの紐付けシステムにおけるインフラの複雑性や開発・運用コストを懸念している。SQLベースでAI機能を利用できるBQMLや定期スケジュール実行などのBig Query内部機能を用いることで、従前のシステムの複雑性を排除したRAGベースの商品名とブランド名の紐付けタスクの実現可能性を検証、提案するため本PoCに着手。
 
 #### **役割、アクション**
 - Google Cloud StorageからBig Queryへのデータのロード
 - データ前処理：商品名の略称に対応するための拡張データを作成。NFCK正規化や文字列置換、ユニーク化を行うUDF（ユーザー定義関数）を実装し、AI処理前に商品名のユニーク数を80%削減
 - AI処理前の完全一致結合
-- Remote model機能を用いて、埋め込みモデル(gemini-embeddig-001)で商品名とブランド名をベクトル化したテーブルの作成
-- ベクトル検索で算出された、コサイン距離の近い上位５件をプロンプトに組み込ませ、テキスト生成モデル(gemini-flash-2.5)でブランド名を判断理由とともにJSON形式で推定(LLM機能はデフォルトでバッチ処理）
-- プロシージャとして上記の一連のSQLをワークフローとして定義し、定期実行スケジュールの作成
+- Remote model機能を用いて、埋め込みモデルであるgemini-embeddig-001で商品名とブランド名をベクトル化したテーブルの作成
+- ベクトル検索で算出された、コサイン距離の近い上位５件をプロンプトに組み込ませ、テキスト生成モデルであるgemini-flash-2.5でブランド名を判断理由とともにJSON形式で推定(デフォルトでバッチ処理）
+- プロシージャとして上記の一連のSQLをワークフローとして定義し、定期実行スケジュールの実証。
   
 #### **成果**
 1,500件の商品データに対して正解率80%、実行時間1分半、コスト数十円とったパフォーマンスを実証。また、Big QueryのみでRAGを実現することでインフラ管理不要化による運用工数の削減を証明。
@@ -181,10 +181,10 @@ SQL, BQML, Google Cloud, Big Query
 - **ビジネス課題**: 本番運用して４年が経過し、精度が低下したレガシーなマッチングモデルの刷新と新規本契約の獲得
 
 #### **背景概要**
-　本システムは、レシートの商品情報からブランド名を推定しマスタとの結合を行うシステムであり、現在本番運用中で、3,4年が経過している。モデルの再学習は行っておるが精度が落ちてきているため、モデルの改善などを行い、改善が見込まれた場合、本番契約の提案を行うプリセールスPoC。
+　本システムは、レシートの商品情報からブランド名を推定しマスタとの結合を行うシステムであり、現在本番運用中で、3,4年が経過している。モデルの再学習は行っておるが、精度が落ちてきているため、モデルの改善などを行って改善が見込まれた場合、本番契約の提案を行うプリセールスPoC。
 
 #### **役割、アクション**
-- 既存システムの理解(ルールベース＋SBERTを用いた対照学習）と誤判定分析
+- 既存システムの理解(Bert分類モデル＋SentenceTransformerを用いた対照学習によるブランド検索モデル）と誤判定分析
 - アーキテクチャやプロセスの変更後、推論速度、コスト、精度を検証
 - 提案書の作成
   
@@ -232,7 +232,7 @@ Technical Stack: Sentece Transfomer, MultipleNegativesRankingLoss
 
 #### **SIGNATE**
 称号：**Master** (🥇1 | 🥈1 | 🥉4)<br>
-順位：200,000人中 **85位*** / [プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)<br>
+順位：200,000人中 **85位** / [プロフィール](https://user.competition.signate.jp/ja/user/?user=9a0d3d95367d4fd98e680d58a487a4f5)<br>
 
 * [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ](https://signate.jp/competitions/1106)：**Solo Gold🥇**
 ![signate_1](/assets/img/signate_1.png)
@@ -257,7 +257,7 @@ Technical Stack: Sentece Transfomer, MultipleNegativesRankingLoss
 ## **社外活動**
 - 松尾研DL/LLMコミュニティ所属
 
-- [Deep Learning 基礎講座 2025 Autumn](https://weblab.t.u-tokyo.ac.jp/lecture/deep-learning/): [修了証](/assets/img/DL2025.pdf)（最終課題のVisual Question Answeringコンペで8位）
+- [Deep Learning 基礎講座 2025 Autumn](https://weblab.t.u-tokyo.ac.jp/lecture/deep-learning/): [修了証](/assets/img/DL2025.pdf)（最終課題の[Visual Question Answering](https://vizwiz.org/tasks-and-datasets/vqa/)コンペで8位）
 - [大規模言語モデル基礎編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model/)：[修了証](/assets/img/LLMbasic2025.pdf)
 - [大規模言語モデル応用編 2025](https://weblab.t.u-tokyo.ac.jp/large-language-model-advanced-course/)：[修了証](/assets/img/LLMadvance.pdf)
   
