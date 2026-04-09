@@ -161,15 +161,15 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 　顧客先では、Google Cloud上でCloud FunctionやWorkflowsなど用いたマスタの紐付けシステムにおけるインフラの複雑性や開発・運用コストを懸念している。SQLベースでAI機能を利用できるBQMLや定期スケジュール実行などのBig Query内部機能を用いることで、従前のシステムの複雑性を排除したRAGベースの商品名とブランド名の紐付けタスクの実現可能性を検証、提案するため本PoCに着手。
 
 #### **役割、アクション**
-- Google Cloud StorageからBig Queryへのデータのロード
+- Google Cloud StorageからBigQueryへのデータのロード
 - データ前処理：商品名の略称に対応するための拡張データを作成。NFCK正規化や文字列置換、ユニーク化を行うUDF（ユーザー定義関数）を実装し、AI処理前に商品名のユニーク数を80%削減
 - AI処理前の完全一致結合
-- Remote model機能を用いて、埋め込みモデルであるgemini-embeddig-001で商品名とブランド名をベクトル化したテーブルの作成
+- Remote model機能を用いて、埋め込みモデルであるgemini-embedding-001で商品名とブランド名をベクトル化したテーブルの作成
 - ベクトル検索で算出された、コサイン距離の近い上位５件をプロンプトに組み込ませ、テキスト生成モデルであるgemini-flash-2.5でブランド名を判断理由とともにJSON形式で推定(デフォルトでバッチ処理）
 - プロシージャとして上記の一連のSQLをワークフローとして定義し、定期実行スケジュールの実証。
   
 #### **成果**
-1,500件の商品データに対して正解率80%、実行時間1分半、コスト数十円とったパフォーマンスを実証。また、Big QueryのみでRAGを実現することでインフラ管理不要化による運用工数の削減を証明。
+1,500件の商品データに対して正解率80%、実行時間1分半、コスト数十円とったパフォーマンスを実証。また、BigQueryのみでRAGを実現することでインフラ管理不要化による運用工数の削減を証明。
 
 #### **Technical Stack**
 SQL, BQML, Google Cloud, Big Query
@@ -192,7 +192,7 @@ SQL, BQML, Google Cloud, Big Query
 現在進行中
 
 #### **技術スキル**
-Technical Stack: Sentece Transfomer, MultipleNegativesRankingLoss
+Technical Stack: Sentence Transfomer, MultipleNegativesRankingLoss
 
 ---
 
