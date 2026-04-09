@@ -150,7 +150,7 @@ YOLO, MediaPipe, Ultralytics, DeepSORT, PINTO_Model, NVIDIA Jetson, OpenCV
 | **従業員数** | 99名(2025年6月時点) |
 
 
-### **5. 大手飲料メーカー向け BigQueryを用いたブランダマスタ紐付けPoC(BQML/RAG)**
+### **5. 大手飲料メーカー向け BigQueryを用いたブランドマスタ紐付けPoC(BQML/RAG)**
 - **期間**：2025年12月~2026年1月（2カ月）
 - **体制**：エンジニア1名、PM1名
 - **対象**：大手飲料メーカー
