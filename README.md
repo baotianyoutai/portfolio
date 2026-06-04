@@ -1,5 +1,5 @@
 ## 職務経歴書(AIエンジニア)
-作成：2026年5月18日 | 氏名：鴇田　優太 | 年齢：24歳
+作成：2026年6月5日 | 氏名：鴇田　優太 | 年齢：24歳
 
 ## 職務概要
 
@@ -214,7 +214,7 @@ Sentence Transformer, MultipleNegativesRankingLoss
 ## **Skills**
 
 #### **Machine Learning & Deep Learning**
-* **Frameworks:** PyTorch, TensorFlow, Keras, JAX/Flax, ONNX, Mediapipe, OpenCV, Ultralytics
+* **Frameworks:** PyTorch, TensorFlow, Keras, JAX/Flax, ONNX, Mediapipe, OpenCV, Ultralytics, Firebase AI Logic
 * **Computer Vision:**
     * 画像分類 (timm, TTA, TTAch)
     * 物体検出 (YOLO series, Mediapipe, PINTO-model)
@@ -225,6 +225,9 @@ Sentence Transformer, MultipleNegativesRankingLoss
 #### **Data Engineering & Languages**
 * **Languages:** Python, SQL
 * **Data Warehouse:** BigQuery ML (BQML)
+
+#### **Design/Frontend**
+* WordPress, FastAPI x Streamlit, Slack
 
 ---
 
