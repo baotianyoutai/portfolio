@@ -253,6 +253,7 @@ Sentence Transformer, MultipleNegativesRankingLoss
 
 * [Lightning Talks in AI Dojo hosted by Google.](https://docs.google.com/presentation/d/1j2_xmHDAVeNJg4vjDoY1NerwFUJU-mAxOWnhZ-fd8Ho/edit?usp=sharing)
   * Google AI Dojo で学んだFirebase を利用することで、例えばWordPress で作成した自分のWebブログにAI機能をセキュアに簡単に組み込めることを紹介
+  * Innovation賞、優秀賞、Speed賞を受賞
 ![LT_2](/assets/img/LT_2.png)<br>
 
 ---
