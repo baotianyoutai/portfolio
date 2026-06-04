@@ -243,16 +243,16 @@ Sentence Transformer, MultipleNegativesRankingLoss
 ---
 
 ## **講演・講義**
-- [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
--   ゼミ長として、劉研究室の紹介を担当
+* [Introduce Data Science & Econometrics Laboratory in Hosei Univ.(Youtube)](https://www.youtube.com/watch?v=E-qVjWBCrug&t=257s)
+  * ゼミ長として、劉研究室の紹介を担当
 ![intro labs](/assets/img/intro_labs.png)<br>
 
-- [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
--   内製開発プロジェクト3の提案制度振り分けAIエージェントでのポイントを共有
+* [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
+  * 内製開発プロジェクト3の提案制度振り分けAIエージェントでのポイントを共有
 ![LT_1](/assets/img/LT_1.png)<br>
 
-- [Lightning Talks in AI Dojo hosted by Google.](https://docs.google.com/presentation/d/1j2_xmHDAVeNJg4vjDoY1NerwFUJU-mAxOWnhZ-fd8Ho/edit?usp=sharing)
--   Google AI Dojo で学んだFirebase を利用することで、例えばWordPress で作成した自分のWebブログにAI機能をセキュアに簡単に組み込めることを紹介
+* [Lightning Talks in AI Dojo hosted by Google.](https://docs.google.com/presentation/d/1j2_xmHDAVeNJg4vjDoY1NerwFUJU-mAxOWnhZ-fd8Ho/edit?usp=sharing)
+  * Google AI Dojo で学んだFirebase を利用することで、例えばWordPress で作成した自分のWebブログにAI機能をセキュアに簡単に組み込めることを紹介
 ![LT_2](/assets/img/LT_2.png)<br>
 
 ---
