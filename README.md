@@ -246,6 +246,9 @@ Sentence Transformer, MultipleNegativesRankingLoss
 - [AI-agent 実践集中コース Linghtning Talks hosted by Google.](https://youtu.be/d6A4VnyZTk4)
 ![LT_1](/assets/img/LT_1.png)<br>
 
+- [Lightning Talks in AI Dojo hosted by Google.](https://docs.google.com/presentation/d/1j2_xmHDAVeNJg4vjDoY1NerwFUJU-mAxOWnhZ-fd8Ho/edit?usp=sharing)
+![LT_2]
+
 ---
 
 ## **出版**
