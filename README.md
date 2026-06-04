@@ -247,7 +247,7 @@ Sentence Transformer, MultipleNegativesRankingLoss
 ![LT_1](/assets/img/LT_1.png)<br>
 
 - [Lightning Talks in AI Dojo hosted by Google.](https://docs.google.com/presentation/d/1j2_xmHDAVeNJg4vjDoY1NerwFUJU-mAxOWnhZ-fd8Ho/edit?usp=sharing)
-![LT_2]
+![LT_2](/assets/img/LT_2.png)<br>
 
 ---
 
