@@ -20,7 +20,7 @@
 | 2024/04 – 2024/10 | **株式会社千葉銀行(正社員)**<br>デジタル戦略部 | **OJT研修**<br>業務改革、デジタルチャネル、マーケティンググループの3領域を経験。部内のDX業務の全体感を理解。 |
 | 2024/10 – 2024/11 | **Google(研修)**<br>[Advanced Solutions Lab](https://cloud.google.com/customers/chiba-bank?hl=ja) | **ML Immersive Education研修**<br> TensorFlowを用いたMLの理論と実装を習得。日本手話の認識プロトタイプを開発。|
 | 2024/11 – 2025/12 | **株式会社千葉銀行(正社員)**<br>デジタル戦略部 AIソリューション室 | **AI/ML エンジニア**<br> RAG、AIエージェント、画像認識を用いたプロジェクトを実装から運用まで一貫で主導。|
-| 2025/12 – 現在 | **エッジテクノロジー株式会社(DXトレーニー: 千葉銀行より在籍出向)**<br>イノベーション推進室 | **AI/ML エンジニア・データサイエンティスト**<br>受託開発の企業にて、大手企業向けのプリセールスPoCやBQMLを用いたコスト最適化や検索システムのモデル改善PoCに従事。 |
+| 2025/12 – 2026/07 | **エッジテクノロジー株式会社(DXトレーニー: 千葉銀行より在籍出向)**<br>イノベーション推進室 | **AI/ML エンジニア・データサイエンティスト**<br>受託開発の企業にて、大手企業向けのプリセールスPoCやBQMLを用いたコスト最適化や検索システムのモデル改善PoCに従事。 |
 
 ### DXトレーニーの背景と役割
 　千葉銀行では内製開発で、一貫して開発から運用まで担当。AIアルゴリズムを事業とするエッジテクノロジーにて、本場のAIエンジニアからより高度な技術力を学ぶ、または実際にプロジェクトに参画して養うため。
@@ -239,6 +239,13 @@ Sentence Transformer, MultipleNegativesRankingLoss
 
 * [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ](https://signate.jp/competitions/1106)：**Solo Gold🥇**
 ![signate_1](/assets/img/signate_1.png)
+
+* **Google Cloud Next'26 Expo selected demo presenter** in GDG booth
+  * ![top-5](/assets/img/next26-1.png)<br>
+  * 学習ブログの継続定着率の低下課題を解決するため、ゲーミフィケーション、記事の埋め込み化＋次元削減＋React Three Fiberで3D可視化等、AstroとFirebaseのモダン構成への切り替え等Webブログの刷新を行った。
+  * Got **Top-5 Demo**
+  * [Presentation Here](https://docs.google.com/presentation/d/1CEL902PZWkoyexH_ZJ-e382-5tXoeVvd/edit?usp=drivesdk&ouid=109743925494244348528&rtpof=true&sd=true)
+  * [Demo Here](https://www.geodyssai.com/)
   
 ---
 
