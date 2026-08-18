@@ -241,9 +241,9 @@ Sentence Transformer, MultipleNegativesRankingLoss
 ![signate_1](/assets/img/signate_1.png)
 
 * [Lightning Talks in AI Dojo hosted by Google.](https://docs.google.com/presentation/d/1j2_xmHDAVeNJg4vjDoY1NerwFUJU-mAxOWnhZ-fd8Ho/edit?usp=sharing)
+![plaque-1](/assets/img/plaque-1.jpeg)<br>
   * Google AI Dojo で学んだFirebase を利用することで、例えばWordPress で作成した自分のWebブログにAI機能をセキュアに簡単に組み込めることを紹介
   * Innovation賞、優秀賞、Speed賞を受賞
-![plaque-1](/assets/img/plaque-1.jpeg)<br>
 
 
 * **Google Cloud Next'26 Expo selected demo presenter** in GDG booth
