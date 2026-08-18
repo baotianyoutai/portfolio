@@ -240,8 +240,14 @@ Sentence Transformer, MultipleNegativesRankingLoss
 * [テクノプロ・デザイン社 食品パッケージ画像解析チャレンジ](https://signate.jp/competitions/1106)：**Solo Gold🥇**
 ![signate_1](/assets/img/signate_1.png)
 
+* [Lightning Talks in AI Dojo hosted by Google.](https://docs.google.com/presentation/d/1j2_xmHDAVeNJg4vjDoY1NerwFUJU-mAxOWnhZ-fd8Ho/edit?usp=sharing)
+  * Google AI Dojo で学んだFirebase を利用することで、例えばWordPress で作成した自分のWebブログにAI機能をセキュアに簡単に組み込めることを紹介
+  * Innovation賞、優秀賞、Speed賞を受賞
+![plaque-1](/assets/img/plaque-1.jpeg)<br>
+
+
 * **Google Cloud Next'26 Expo selected demo presenter** in GDG booth
-  * ![top-5](/assets/img/next26-1.jpeg)<br>
+![top-5](/assets/img/next26-1.jpeg)<br>
   * 学習ブログの継続定着率の低下課題を解決するため、ゲーミフィケーション、記事の埋め込み化＋次元削減＋React Three Fiberで3D可視化等、AstroとFirebaseのモダン構成への切り替え等Webブログの刷新を行った。
   * Got **Top-5 Demo**
   * [Presentation Here](https://docs.google.com/presentation/d/1CEL902PZWkoyexH_ZJ-e382-5tXoeVvd/edit?usp=drivesdk&ouid=109743925494244348528&rtpof=true&sd=true)
