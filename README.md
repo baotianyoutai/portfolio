@@ -241,7 +241,7 @@ Sentence Transformer, MultipleNegativesRankingLoss
 ![signate_1](/assets/img/signate_1.png)
 
 * **Google Cloud Next'26 Expo selected demo presenter** in GDG booth
-  * ![top-5](/assets/img/next26-1.png)<br>
+  * ![top-5](/assets/img/next26-1.jpeg)<br>
   * 学習ブログの継続定着率の低下課題を解決するため、ゲーミフィケーション、記事の埋め込み化＋次元削減＋React Three Fiberで3D可視化等、AstroとFirebaseのモダン構成への切り替え等Webブログの刷新を行った。
   * Got **Top-5 Demo**
   * [Presentation Here](https://docs.google.com/presentation/d/1CEL902PZWkoyexH_ZJ-e382-5tXoeVvd/edit?usp=drivesdk&ouid=109743925494244348528&rtpof=true&sd=true)
